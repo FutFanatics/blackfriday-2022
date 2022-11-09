@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 90vh;
+  width: 100%;
+}
+
+.App-header {
+  min-height: 90vh;  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.c-banner{
+  top:-70px;
+}

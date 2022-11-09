@@ -1,0 +1,63 @@
+@import 'variables';
+
+#root{
+    background-color: $background-primary;
+}
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .App-header {
+    min-height: 90vh;  
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .c-banner{
+    top:-70px;
+  }
+  .c-category{
+    padding-bottom: 32px;
+    .box-category{
+        width: 12%;
+
+        .title-category{
+            color:$color-text-primary;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        a{
+            max-height: 140px;
+            position: relative;
+
+            .img-category{
+                width: 100%;
+                padding: 5px;
+                object-fit: contain;
+
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+  }
+
+  .c-banners_shirt{
+    padding-bottom: 32px;
+    .banner{
+        max-height: 360px;
+        transition: ease-in-out .6s;
+        &:hover{
+           transform:scale(1.05);
+           
+        }
+    }
+  }
