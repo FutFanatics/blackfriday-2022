@@ -60,6 +60,9 @@
   transform: scale(1.05);
 }
 
+.c-carousel-times {
+  margin-bottom: 32px;
+}
 .c-carousel-times .title-times {
   font-size: 18px;
   font-weight: 700;

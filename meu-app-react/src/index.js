@@ -22,6 +22,7 @@ root.render(
     <Category/>
     <BannersShirt/>
     <Times/>
+    <BannersShirt/>
     <Marcas/>
     <BannersBottom/>
   </React.StrictMode>

@@ -5,7 +5,7 @@ import item4 from '../img/marcas/marca3.svg';
 import item5 from '../img/marcas/marca5.svg';
 import item6 from '../img/marcas/marca6.svg';
 import item7 from '../img/marcas/marca7.svg';
-import item8 from '../img/marcas/marca8.svg';
+import item8 from '../img/marcas/marca8-1.svg';
 import item9 from '../img/marcas/marca9.svg';
 import item10 from '../img/marcas/marca10.svg';
 import item11 from '../img/marcas/marca11.svg';
