@@ -4,6 +4,9 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
+*{
+  text-decoration: none;
+}
 #root{
     background-color: $background-primary;
 }
@@ -66,14 +69,14 @@
     }
   }
   .c-carousel-times{
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     .title-times{
       font-size: 18px;
       font-weight: 700;
       text-transform: uppercase;
       color: $color-text-primary;
       position: relative;
-      margin-bottom: 16px;
+      margin-bottom: 36px;
     
       &-nacionais{
         &::before{
@@ -95,6 +98,7 @@
     }
     .times-nacionais, .times-internacionais{
       display: none;
+      
        &.active{
         display: block;
         .img-times{
@@ -110,7 +114,7 @@
     }
   }
   .c-carousel-marcas{
-    padding-top: 32px;
+    padding-top: 36px;
     padding-bottom: 32px;
     .box-title{
       .title-marcas{
@@ -119,7 +123,7 @@
         color: $color-text-primary;
         text-transform: uppercase;
         position: relative;
-        margin-bottom: 16px;
+        margin-bottom: 36px;
 
         &::before{
           width: 100%;
@@ -139,37 +143,126 @@
       object-fit: contain;
     }
   }
-  .c-banners__bottom{
-    padding-top: 64px;
+  .c-destaque{
+    padding-top: 32px;
     padding-bottom: 32px;
-    .banner{
-      &--left{
-        max-width: 50%;
-        
-        img{
-          object-fit: contain;
+
+    .title-destaque{
+      font-size: 20px;
+      color: $color-text-primary;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 16px;        
+    }
+
+    .container-card{
+      padding: 8px;
+    }
+    
+    .link-destaque{
+      text-decoration: none;
+      .card-destaque{
+        overflow: hidden;
+
+        .img-card{
           width: 100%;
+          object-fit:contain;
           position: relative;
-          transition: ease-in-out .8s;
+          transition: ease-in-out 0.6s;
+          filter: grayscale(1);
           &:hover{
+            filter: grayscale(0);
             transform: scale(1.05);
           }
         }
 
+        .legend-card{
+          width: 100%;
+          z-index: 9;
+          height: 40px;
+          background-color: #000;
+          border: 1px solid #262626;
+          border-top: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          position: relative;
+          color: $color-text-primary;
+          font-weight: 400;
+          text-transform: uppercase;        
+        }
       }
-      &--right{
-        max-width: 50%;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
 
-        img{
-          object-fit: contain;
+  .c-footer{
+    padding-top: 32px;
+
+    .container{
+      border-top: 1px solid #424242;
+    }
+    .title-footer{
+      margin-top: 32px;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .links-footer{
+      color: $color-text-primary;
+      font-size: 16px;
+      margin-bottom: 10px;
+      
+      
+      font-weight: 400;
+      text-decoration: none;
+
+      &:last-child{
+        margin-bottom: 0px;
+      }
+      .icon-cel{
+        height: 18px;
+        width: 18px;
+        margin-right: 4px;
+      }
+    }
+
+    .box-images{
+      .img-certificado{
+        height: 80px;
+        object-fit: contain;
+        margin-right: 32px;
+
+        &__last{
           width: 100%;
-          position: relative;
-          transition: ease-in-out .8s;
-
-          &:hover{
-            transform: scale(1.05);
-          }
+          margin-top: 8px;
         }
+      }
+    }
+    .method-pagament{
+      border-top: #262626 1px solid;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      .pagament{
+        margin-right: 12px;
+
+        &:last-child{
+          margin-right: 0px;
+        }
+      }
+    }
+
+    .app-img{
+      margin-right: 8px;
+      width: 40%;
+
+      &:last-child{
+        margin-right: 0px;
       }
     }
   }

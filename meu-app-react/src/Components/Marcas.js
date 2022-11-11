@@ -1,7 +1,7 @@
 import item1 from '../img/marcas/marca1.svg';
 import item2 from '../img/marcas/marca2.svg';
 import item3 from '../img/marcas/marca3.svg';
-import item4 from '../img/marcas/marca3.svg';
+import item4 from '../img/marcas/marca4.svg';
 import item5 from '../img/marcas/marca5.svg';
 import item6 from '../img/marcas/marca6.svg';
 import item7 from '../img/marcas/marca7.svg';
@@ -30,7 +30,7 @@ function Marcas(){
         infinite: true,
         speed: 500,
         slidesToShow: 12,
-        slidesToScroll: 2
+        slidesToScroll: 2,
     };
     return(
         <div class="c-carousel-marcas">

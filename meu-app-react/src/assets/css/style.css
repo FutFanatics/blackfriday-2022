@@ -1,5 +1,9 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+* {
+  text-decoration: none;
+}
+
 #root {
   background-color: #000;
 }
@@ -61,7 +65,7 @@
 }
 
 .c-carousel-times {
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 .c-carousel-times .title-times {
   font-size: 18px;
@@ -69,7 +73,7 @@
   text-transform: uppercase;
   color: #AEAEAE;
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 36px;
 }
 .c-carousel-times .title-times-nacionais::before {
   width: 100%;
@@ -100,7 +104,7 @@
 }
 
 .c-carousel-marcas {
-  padding-top: 32px;
+  padding-top: 36px;
   padding-bottom: 32px;
 }
 .c-carousel-marcas .box-title .title-marcas {
@@ -109,7 +113,7 @@
   color: #AEAEAE;
   text-transform: uppercase;
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 36px;
 }
 .c-carousel-marcas .box-title .title-marcas::before {
   width: 100%;
@@ -126,33 +130,112 @@
   object-fit: contain;
 }
 
-.c-banners__bottom {
-  padding-top: 64px;
+.c-destaque {
+  padding-top: 32px;
   padding-bottom: 32px;
 }
-.c-banners__bottom .banner--left {
-  max-width: 50%;
+.c-destaque .title-destaque {
+  font-size: 20px;
+  color: #AEAEAE;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
-.c-banners__bottom .banner--left img {
-  object-fit: contain;
+.c-destaque .container-card {
+  padding: 8px;
+}
+.c-destaque .link-destaque {
+  text-decoration: none;
+}
+.c-destaque .link-destaque .card-destaque {
+  overflow: hidden;
+}
+.c-destaque .link-destaque .card-destaque .img-card {
   width: 100%;
+  object-fit: contain;
   position: relative;
-  transition: ease-in-out 0.8s;
+  transition: ease-in-out 0.6s;
+  filter: grayscale(1);
 }
-.c-banners__bottom .banner--left img:hover {
+.c-destaque .link-destaque .card-destaque .img-card:hover {
+  filter: grayscale(0);
   transform: scale(1.05);
 }
-.c-banners__bottom .banner--right {
-  max-width: 50%;
-}
-.c-banners__bottom .banner--right img {
-  object-fit: contain;
+.c-destaque .link-destaque .card-destaque .legend-card {
   width: 100%;
+  z-index: 9;
+  height: 40px;
+  background-color: #000;
+  border: 1px solid #262626;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
   position: relative;
-  transition: ease-in-out 0.8s;
+  color: #AEAEAE;
+  font-weight: 400;
+  text-transform: uppercase;
 }
-.c-banners__bottom .banner--right img:hover {
-  transform: scale(1.05);
+.c-destaque .link-destaque:hover {
+  text-decoration: none;
+}
+
+.c-footer {
+  padding-top: 32px;
+}
+.c-footer .container {
+  border-top: 1px solid #424242;
+}
+.c-footer .title-footer {
+  margin-top: 32px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.c-footer .links-footer {
+  color: #AEAEAE;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.c-footer .links-footer:last-child {
+  margin-bottom: 0px;
+}
+.c-footer .links-footer .icon-cel {
+  height: 18px;
+  width: 18px;
+  margin-right: 4px;
+}
+.c-footer .box-images .img-certificado {
+  height: 80px;
+  object-fit: contain;
+  margin-right: 32px;
+}
+.c-footer .box-images .img-certificado__last {
+  width: 100%;
+  margin-top: 8px;
+}
+.c-footer .method-pagament {
+  border-top: #262626 1px solid;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.c-footer .method-pagament .pagament {
+  margin-right: 12px;
+}
+.c-footer .method-pagament .pagament:last-child {
+  margin-right: 0px;
+}
+.c-footer .app-img {
+  margin-right: 8px;
+  width: 40%;
+}
+.c-footer .app-img:last-child {
+  margin-right: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

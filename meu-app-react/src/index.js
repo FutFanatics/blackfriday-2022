@@ -8,9 +8,10 @@ import './assets/css/style.css';
 import BannersShirt from './Components/banners_shirt';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import Carousel from 'react-bootstrap/Carousel';
-import BannersBottom from './Components/banners_bottom';
 import Times from './Components/Times';
 import Marcas from './Components/Marcas';
+import Destaques from './Components/Destaques';
+import Footer from './Components/Footer';
 
 
 
@@ -24,7 +25,8 @@ root.render(
     <Times/>
     <BannersShirt/>
     <Marcas/>
-    <BannersBottom/>
+    <Destaques/>
+    <Footer/>
   </React.StrictMode>
 );
 

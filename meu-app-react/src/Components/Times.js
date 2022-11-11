@@ -37,14 +37,16 @@ function Times(){
                 infinite: true,
                 speed: 500,
                 slidesToShow: 10,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                
               };
               const timesinternacional = {
                 dots: false,
                 infinite: true, 
                 speed: 500,
                 slidesToShow: 10,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                
               };
               return (
 
