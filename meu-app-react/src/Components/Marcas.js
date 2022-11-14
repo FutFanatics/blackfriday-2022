@@ -31,6 +31,18 @@ function Marcas(){
         speed: 500,
         slidesToShow: 12,
         slidesToScroll: 2,
+        responsive:[
+            {
+                breakpoint: 600,
+                settings : {
+                  slidesToShow: 3,
+                  slidesToScroll: 2,
+                  dots: false,
+                  arrows:false,
+                }
+              },
+        ]
+        
     };
     return(
         <div class="c-carousel-marcas">

@@ -41,8 +41,12 @@
             font-weight: 500;
         }
         a{
-            max-height: 140px;
+            max-height: 160px;
             position: relative;
+
+            @include md{
+              max-height: 140px;
+            }
 
             .img-category{
                 width: 100%;
@@ -263,6 +267,24 @@
 
       &:last-child{
         margin-right: 0px;
+      }
+    }
+
+    .sign{
+      .sign-futfanatics{
+        width: 40%;
+      }
+      .content-sign{
+        font-size: 14px;
+        color: $color-text-primary;
+        line-height: 1.4rem;
+        padding:16px;
+        padding-top: 0px;
+      }
+      .img-shared{
+        width: 25px;
+        height: 25px;
+        margin: 0 8px;
       }
     }
   }

@@ -7,11 +7,38 @@ import item6 from './../img/category/categoria_6.png';
 import item7 from './../img/category/categoria_7.png';
 import item8 from './../img/category/categoria_8.png';
 
+import Slider from "react-slick";
+import React, { Component } from "react";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+
 const Category = () => {
+    const categorySlide={
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 9,
+    
+        slidesToScroll: 1,
+        responsive:[
+            {
+                breakpoint: 600,
+                settings : {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  dots: false,
+                  arrows:false,
+                }
+              },
+        ]
+        
+    };
     return (
         <section className='c-category'>
             <div className='container'>
-                <div className='d-flex justify-content-center'>
+                <div className='d-block justify-content-center'>
+                <Slider {...categorySlide} className='category'>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Internacionais</span>
                         <a className='' href=''>
@@ -60,6 +87,7 @@ const Category = () => {
                             <img src={item8} className="img-category" alt="banner cocielo"/>
                         </a>
                     </div>
+                </Slider>
                 </div>
             </div>
         </section>    

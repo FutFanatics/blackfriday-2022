@@ -20,7 +20,18 @@ function Destaques(){
         infinite: true,
         speed: 500,
         slidesToShow: 5,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        responsive:[
+            {
+                breakpoint: 600,
+                settings : {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  dots: false,
+                  arrows:false,
+                }
+              },
+        ]
     };
     return(
         <section className="c-destaque">

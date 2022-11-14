@@ -38,7 +38,17 @@ function Times(){
                 speed: 500,
                 slidesToShow: 10,
                 slidesToScroll: 1,
-                
+                responsive:[
+                  {
+                      breakpoint: 600,
+                      settings : {
+                        slidesToShow: 3,
+                        slidesToScroll: 2,
+                        dots: false,
+                        arrows:false,
+                      }
+                    },
+              ]                
               };
               const timesinternacional = {
                 dots: false,
@@ -46,6 +56,17 @@ function Times(){
                 speed: 500,
                 slidesToShow: 10,
                 slidesToScroll: 1,
+                responsive:[
+                  {
+                      breakpoint: 600,
+                      settings : {
+                        slidesToShow: 3,
+                        slidesToScroll: 2,
+                        dots: false,
+                        arrows:false,
+                      }
+                    },
+              ]
                 
               };
               return (
