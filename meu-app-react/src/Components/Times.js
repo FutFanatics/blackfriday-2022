@@ -31,18 +31,23 @@ import Slider from "react-slick";
 import React, { Component } from "react";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import {useState} from 'react';
 function Times(){
+              const handleClick = event =>{
+                event.currentTarget.classList.toggle('active');
+              }
               const timesbrasil = {
-                dots: false,
+                dots: true,
                 infinite: true,
                 speed: 500,
                 slidesToShow: 10,
                 slidesToScroll: 1,
+                
                 responsive:[
                   {
                       breakpoint: 600,
                       settings : {
-                        slidesToShow: 3,
+                        slidesToShow: 4,
                         slidesToScroll: 2,
                         dots: false,
                         arrows:false,
@@ -51,7 +56,7 @@ function Times(){
               ]                
               };
               const timesinternacional = {
-                dots: false,
+                dots: true,
                 infinite: true, 
                 speed: 500,
                 slidesToShow: 10,
@@ -75,7 +80,7 @@ function Times(){
                     <div className='container'>
                         <div className='w-100 d-flex justify-content-center'>
                             <h2 className='title-times title-times-nacionais'> Times Nacionais</h2>
-                            <h2 className='title-times title-times-internacionais'> Times Internacionais</h2>
+                            <h2 className='title-times title-times-internacionais' onClick={handleClick}> Times Internacionais</h2>
                         </div>
                     <Slider {...timesbrasil} className="times-nacionais active">
                         <div className='d-flex justify-content-center'>
@@ -125,7 +130,7 @@ function Times(){
                         </div>
                     </Slider>
 
-                    <Slider {...timesinternacional} className="times-internacionais">
+                    <Slider {...timesinternacional} className="times-internacionais " onClick={handleClick}>
                         <div>
                         <img src={iteminter1} className="img-times"  alt=''/>
                         </div>

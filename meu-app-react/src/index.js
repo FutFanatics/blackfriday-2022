@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './Components/Header';
 import App from '../src/Components/App';
 import Topo from '../src/Components/Topo';
 import Category from '../src/Components/Category';
@@ -7,7 +8,6 @@ import reportWebVitals from './reportWebVitals';
 import './assets/css/style.css';
 import BannersShirt from './Components/banners_shirt';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
-import Carousel from 'react-bootstrap/Carousel';
 import Times from './Components/Times';
 import Marcas from './Components/Marcas';
 import Destaques from './Components/Destaques';
@@ -18,6 +18,7 @@ import Footer from './Components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header/>
     <App/>
     <Topo/>
     <Category/>

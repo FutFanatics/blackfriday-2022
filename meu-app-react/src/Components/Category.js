@@ -19,7 +19,6 @@ const Category = () => {
         infinite: false,
         speed: 500,
         slidesToShow: 9,
-    
         slidesToScroll: 1,
         responsive:[
             {
