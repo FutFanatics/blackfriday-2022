@@ -75,14 +75,7 @@
 }
 
 .App-logo {
-  height: 90vh;
   width: 100%;
-}
-
-@media (min-width: 1200px) {
-  .App-header {
-    min-height: 90vh;
-  }
 }
 
 .App-link {
@@ -90,7 +83,7 @@
 }
 
 .c-banner {
-  top: -70px;
+  top: -50px;
 }
 
 .c-category {
@@ -162,25 +155,19 @@
 .c-carousel-times .title-times-internacionais {
   margin-left: 24px;
 }
-.c-carousel-times .times-nacionais, .c-carousel-times .times-internacionais {
-  display: none;
-}
-.c-carousel-times .times-nacionais.active, .c-carousel-times .times-internacionais.active {
-  display: block;
-}
-.c-carousel-times .times-nacionais.active .img-times, .c-carousel-times .times-internacionais.active .img-times {
+.c-carousel-times .times-nacionais .img-times, .c-carousel-times .times-internacionais .img-times {
   height: 70px;
   object-fit: contain;
   transition: ease-in-out 0.8s;
   padding-right: 16px;
 }
 @media (min-width: 1200px) {
-  .c-carousel-times .times-nacionais.active .img-times, .c-carousel-times .times-internacionais.active .img-times {
+  .c-carousel-times .times-nacionais .img-times, .c-carousel-times .times-internacionais .img-times {
     padding-right: 0;
     height: 80px;
   }
 }
-.c-carousel-times .times-nacionais.active .img-times:hover, .c-carousel-times .times-internacionais.active .img-times:hover {
+.c-carousel-times .times-nacionais .img-times:hover, .c-carousel-times .times-internacionais .img-times:hover {
   transform: scale(1.05);
 }
 

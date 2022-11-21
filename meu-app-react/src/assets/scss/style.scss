@@ -88,23 +88,16 @@
   }
   
   .App-logo {
-    height: 90vh;
     width: 100%;
   }
   
-  .App-header {
-
-    @include md{
-      min-height: 90vh;
-    }
-  }
   
   .App-link {
     color: #61dafb;
   }
   
   .c-banner{
-    top:-70px;
+    top:-50px;
   }
   .c-category{
     padding-bottom: 32px;
@@ -180,10 +173,7 @@
       
     }
     .times-nacionais, .times-internacionais{
-      display: none;
       
-       &.active{
-        display: block;
         .img-times{
           height: 70px;
           object-fit: contain;
@@ -198,7 +188,7 @@
             transform: scale(1.05);
           }
         }
-       }
+       
     }
   }
   .c-carousel-marcas{

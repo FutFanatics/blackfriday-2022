@@ -33,9 +33,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {useState} from 'react';
 function Times(){
-              const handleClick = event =>{
-                event.currentTarget.classList.toggle('active');
-              }
               const timesbrasil = {
                 dots: true,
                 infinite: true,
@@ -74,63 +71,97 @@ function Times(){
               ]
                 
               };
+              const[nacionais, setNacionais] = useState(true);
               return (
 
                 <div className='c-carousel-times'>
                     <div className='container'>
                         <div className='w-100 d-flex justify-content-center'>
-                            <h2 className='title-times title-times-nacionais'> Times Nacionais</h2>
-                            <h2 className='title-times title-times-internacionais' onClick={handleClick}> Times Internacionais</h2>
+                            <h2 className='title-times title-times-nacionais'onClick={() => {
+          setNacionais(true);
+        }} > Times Nacionais</h2>
+                            <h2 className='title-times title-times-internacionais' onClick={() => {
+          setNacionais(false);
+        }}> Times Internacionais</h2>
                         </div>
-                    <Slider {...timesbrasil} className="times-nacionais active">
+                      {nacionais   &&  <Slider {...timesbrasil} className="times-nacionais">
                         <div className='d-flex justify-content-center'>
-                        <img src={item1} className="img-times" alt=''/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/flamengo'>
+                            <img src={item1} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item2} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/palmeiras'>
+                            <img src={item2} className="img-times"/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item3} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/minas-gerais/atletico-mineiro'>
+                            <img src={item3} className="img-times"/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item4} className="img-times"/>
+                        <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/corinthians'>
+                            <img src={item4} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item5} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/vasco-da-gama'>
+                            <img src={item5} className="img-times" alt=''/>
+                          </a>                        
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item6} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-grande-do-sul/internacional'>
+                            <img src={item6} className="img-times" alt=''/>
+                          </a>                        
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item7} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/fluminense'>
+                            <img src={item7} className="img-times" alt=''/>
+                          </a>                        </div>
+                        <div className='d-flex justify-content-center'  alt=''>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/santos'>
+                            <img src={item8} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item8} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/sao-paulo'>
+                            <img src={item9} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item9} className="img-times"/>
+                          <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-grande-do-sul/gremio'>
+                            <img src={item10} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item10} className="img-times"/>
+                        <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/botafogo'>
+                            <img src={item11} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item11} className="img-times"/>
+                        <a href='https://www.futfanatics.com.br/clubes-brasileiros/parana/coritiba'>
+                            <img src={item12} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item12} className="img-times"/>
+                        <a href='https://www.futfanatics.com.br/clubes-brasileiros/nordeste/fortaleza'>
+                            <img src={item13} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item13} className="img-times"/>
+                        <a href='https://www.futfanatics.com.br/clubes-brasileiros/minas-gerais/cruzeiro'>
+                            <img src={item14} className="img-times" alt=''/>
+                          </a>
                         </div>
                         <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item14} className="img-times"/>
+                          <a href=''>
+                            <img src={item15} className="img-times" alt=''/>
+                          </a>
                         </div>
-                        <div className='d-flex justify-content-center'  alt=''>
-                        <img src={item15} className="img-times"/>
-                        </div>
-                    </Slider>
+                    </Slider>}
 
-                    <Slider {...timesinternacional} className="times-internacionais " onClick={handleClick}>
+                    {!nacionais && <Slider {...timesinternacional} className="times-internacionais ">
                         <div>
                         <img src={iteminter1} className="img-times"  alt=''/>
                         </div>
@@ -162,6 +193,7 @@ function Times(){
                         <img src={iteminter10} className="img-times"  alt=''/>
                         </div>
                     </Slider>
+                      }
                     </div>
                 </div>
               );
