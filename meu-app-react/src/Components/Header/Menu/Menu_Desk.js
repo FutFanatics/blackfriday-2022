@@ -1,4 +1,4 @@
-import bannerLoja from '../img/banner/bannersmenu/bannerloja.png';
+import bannerLoja from '../../../img/banner/bannersmenu/bannerloja.png';
 
 function Menu_Desk(){
     return(

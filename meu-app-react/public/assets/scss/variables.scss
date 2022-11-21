@@ -1,6 +1,0 @@
-$background-primary:#000;
-$color-text-primary:#AEAEAE;
-
-@mixin md{
-    @media (min-width: 1200px) { @content; }
-}

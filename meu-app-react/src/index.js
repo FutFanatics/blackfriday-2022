@@ -1,18 +1,23 @@
 import React from 'react';
+import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
-import Header from './Components/Header';
+
+// Components
 import App from '../src/Components/App';
+import Header from './Components/Header/Header';
 import Topo from '../src/Components/Topo';
 import Category from '../src/Components/Category';
-import reportWebVitals from './reportWebVitals';
-import './assets/css/style.css';
 import BannersShirt from './Components/banners_shirt';
-import  'bootstrap/dist/css/bootstrap.min.css' ;
 import Times from './Components/Times';
 import Marcas from './Components/Marcas';
 import Destaques from './Components/Destaques';
 import Footer from './Components/Footer';
 import BannersBottom from './Components/banners_bottom';
+
+// STYLE
+import './assets/css/style.css';
+import  'bootstrap/dist/css/bootstrap.min.css' ;
+
 
 
 
