@@ -9,6 +9,8 @@ import item8 from '../img/destaque/kappa.png';
 import item9 from '../img/destaque/braziline.png';
 import item10 from '../img/destaque/passaro-preto.png';
 
+import item11 from '../img/destaque/allejo.png';
+
 import Slider from "react-slick";
 import React, { Component } from "react";
 import "slick-carousel/slick/slick.css"; 
@@ -43,48 +45,42 @@ function Destaques(){
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/tenis-redley-originals-preto" className="link-destaque">
                         <div className="card-destaque">
-                            <img src={item1} className="img-card"  alt=''/>
-                            <span className="legend-card">Brasil</span>    
+                            <img src={item1} className="img-card"  alt=''/>    
                     </div>
                     </a>    
                 </div>
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/tenis-coca-cola-daytona-feminino-branco" className="link-destaque">
                         <div className="card-destaque">
-                            <img src={item2} className="img-card"  alt=''/>
-                            <span className="legend-card">Redley</span>    
-                    </div>
+                            <img src={item2} className="img-card"  alt=''/> 
+                        </div>
                     </a>    
                 </div>
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/chuteira-umbro-cosmic-campo-preta-e-cinza" className="link-destaque">
                         <div className="card-destaque">
-                            <img src={item3} className="img-card"  alt=''/>
-                            <span className="legend-card">Coca Cola</span>    
-                    </div>
+                            <img src={item3} className="img-card"  alt=''/>  
+                        </div>
                     </a>  
                 </div>
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/camisa-adidas-internacional-women-project-feminina" className="link-destaque">
                         <div className="card-destaque">
-                            <img src={item4} className="img-card"  alt=''/>
-                            <span className="legend-card">Umbro</span>    
-                    </div>
+                            <img src={item5} className="img-card"  alt=''/>
+                        </div>
                     </a>    
                 </div>
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/short-area-bertha-feminino-amarelo" className="link-destaque">
                         <div className="card-destaque">
-                            <img src={item5} className="img-card"  alt=''/>
-                            <span className="legend-card">Adidas</span>    
-                    </div>
+                            <img src={item4} className="img-card"  alt=''/>
+                        </div>
                     </a> 
                 </div>  
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/tenis-olympikus-corre-2-arenito" className="link-destaque">
                         <div className="card-destaque">
                             <img src={item6} className="img-card"  alt=''/>
-                            <span className="legend-card">Area</span>    
                     </div>
                     </a>    
                 </div> 
@@ -92,32 +88,35 @@ function Destaques(){
                     <a href="https://www.futfanatics.com.br/tenis-fila-cage-python-all-black" className="link-destaque">
                         <div className="card-destaque">
                             <img src={item7} className="img-card"  alt=''/>
-                            <span className="legend-card">Olympikus</span>    
-                    </div>
+                        </div>
                     </a> 
                 </div>   
                 <div className='container-card'>
                     <a href="" className="link-destaque">
                         <div className="card-destaque">
                             <img src={item8} className="img-card"  alt=''/>
-                            <span className="legend-card">Fila</span>    
-                    </div>
+                        </div>
                     </a>
                 </div>
                 <div className='container-card'>
                         <a href="" className="link-destaque">
                             <div className="card-destaque">
                                 <img src={item9} className="img-card"  alt=''/>
-                                <span className="legend-card">Kappa</span>    
-                        </div>
+                            </div>
                         </a>   
                 </div> 
                 <div className='container-card'>
                     <a href="" className="link-destaque">
                         <div className="card-destaque">
+                            <img src={item11} className="img-card"  alt=''/>
+                        </div>
+                    </a>    
+                </div>
+                <div className='container-card'>
+                    <a href="" className="link-destaque">
+                        <div className="card-destaque">
                             <img src={item10} className="img-card"  alt=''/>
-                            <span className="legend-card">Pássaro Preto</span>    
-                    </div>
+                        </div>
                     </a>    
                 </div>
             </Slider>

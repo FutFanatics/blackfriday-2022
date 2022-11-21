@@ -233,10 +233,8 @@
   object-fit: contain;
   position: relative;
   transition: ease-in-out 0.6s;
-  filter: grayscale(1);
 }
 .c-destaque .link-destaque .card-destaque .img-card:hover {
-  filter: grayscale(0);
   transform: scale(1.05);
 }
 .c-destaque .link-destaque .card-destaque .legend-card {

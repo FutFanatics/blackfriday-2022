@@ -52,22 +52,34 @@ function Marcas(){
                 </div>
                 <Slider {...marcas} className='marcas'>
                         <div className='d-flex justify-content-center'>
-                        <img src={item1} className="img-marca" alt=''/>
+                            <a href=''>
+                                <img src={item1} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item2} className="img-marca" alt=''/>
+                            <a href=''>
+                                <img src={item2} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item3} className="img-marca" alt=''/>
+                            <a href=''>
+                                <img src={item3} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item4} className="img-marca" alt=''/>
+                            <a href=''>
+                                <img src={item4} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item5} className="img-marca" alt=''/>
+                            <a href=''>
+                                <img src={item5} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item6} className="img-marca" alt=''/>
+                            <a href=''>
+                                <img src={item6} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
                         <img src={item7} className="img-marca" alt=''/>
