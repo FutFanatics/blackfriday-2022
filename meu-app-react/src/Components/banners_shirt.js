@@ -1,7 +1,9 @@
 import Slider from 'react-slick';
-import banner1 from './../img/banner/banner_1.png';
-import banner2 from './../img/banner/banner_2.png';
-import banner3 from './../img/banner/banner_3.png';
+import banner1 from './../img/banner/banner_min_1.png';
+import banner2 from './../img/banner/banner_1.png';
+import banner3 from './../img/banner/banner_2.png';
+import banner4 from './../img/banner/banner_min_2.png';
+
 
 
 
@@ -36,7 +38,7 @@ const BannersShirt = () => {
                         </div>
                         <div className="col-5 position-relative">
                             <a href='' className=''>
-                                <img src={banner1} className='banner w-100' alt=''/>
+                                <img src={banner4} className='banner w-100' alt=''/>
                             </a>
                         </div>
                     </div>

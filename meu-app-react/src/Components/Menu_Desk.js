@@ -1,3 +1,5 @@
+import bannerLoja from '../img/banner/bannersmenu/bannerloja.png';
+
 function Menu_Desk(){
     return(
         <div className="container-fluid menu-desk">
@@ -6,7 +8,7 @@ function Menu_Desk(){
                     <nav>
                         <ul className="d-flex justify-content-between align-items-center">
                             <li className="parent">
-                                <a href="{{ store.url }}">Loja</a>
+                                <a href="">Loja</a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -59,7 +61,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_loja_link }}" target="{{ settings.menu_loja_link_target }}">
-                                                            <img src="{{ asset(settings.menu_loja_banner) }}" alt="" />
+                                                            <img className='bannermenu' src={ bannerLoja } alt="" />
                                                         </a>
                                                     </div>
                                                 </div>

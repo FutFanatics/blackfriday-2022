@@ -12,6 +12,7 @@ import Times from './Components/Times';
 import Marcas from './Components/Marcas';
 import Destaques from './Components/Destaques';
 import Footer from './Components/Footer';
+import BannersBottom from './Components/banners_bottom';
 
 
 
@@ -24,7 +25,7 @@ root.render(
     <Category/>
     <BannersShirt/>
     <Times/>
-    <BannersShirt/>
+    <BannersBottom/>
     <Marcas/>
     <Destaques/>
     <Footer/>
@@ -42,3 +43,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
