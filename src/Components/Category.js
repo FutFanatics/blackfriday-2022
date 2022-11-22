@@ -8,7 +8,6 @@ import item7 from './../img/category/categoria_7.png';
 import item8 from './../img/category/categoria_8.png';
 
 import Slider from "react-slick";
-import React, { Component } from "react";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 

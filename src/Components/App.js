@@ -8,8 +8,13 @@ function App() {
   return (
     <div className="App">
       <section className="App-header">
-        <img src={logo} className="App-logo d-none d-md-block" alt="logo" />
-        <img src={logoMobile} className="w-100 d-md-none" alt="logo" />
+        <a href='https://www.futfanatics.com.br/loja/busca.php'>
+          <img src={logo} className="App-logo d-none d-md-block" alt="Produtos com até 75% off" />
+        </a>
+        <a href='https://www.futfanatics.com.br/loja/busca.php'>
+          <img src={logoMobile} className="w-100 d-md-none" alt="Produtos com até 75% off" />
+        </a>
+
       </section>
     </div>
     

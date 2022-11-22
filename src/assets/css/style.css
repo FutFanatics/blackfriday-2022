@@ -9,6 +9,11 @@
   background-color: #000;
 }
 
+.c-testeira .testeira-title {
+  color: #00df5e;
+  margin-bottom: 0px;
+}
+
 .c-header .box-logo .logo-header {
   width: 120px;
   object-fit: contain;
@@ -85,12 +90,19 @@
 .c-banner {
   top: -50px;
 }
+.c-banner .box-image__banner {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.c-banner .box-image__banner .banner-center {
+  transition: ease-in-out 0.8s;
+}
+.c-banner .box-image__banner .banner-center:hover {
+  transform: scale(1.05);
+}
 
 .c-category {
   padding-bottom: 32px;
-}
-.c-category .box-category {
-  width: 12%;
 }
 .c-category .box-category .title-category {
   color: #AEAEAE;

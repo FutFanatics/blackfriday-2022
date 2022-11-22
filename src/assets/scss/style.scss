@@ -10,6 +10,13 @@
 #root{
     background-color: $background-primary;
 }
+
+.c-testeira{
+  .testeira-title{
+    color: #00df5e;
+    margin-bottom: 0px;
+  }
+}
 .c-header{
 
   .box-logo{
@@ -98,12 +105,22 @@
   
   .c-banner{
     top:-50px;
+
+    .box-image__banner{
+      overflow: hidden;
+      border-radius: 10px;
+
+      .banner-center{
+        transition: ease-in-out 0.8s;
+        &:hover{
+          transform: scale(1.05);
+        }
+      }
+    }
   }
   .c-category{
     padding-bottom: 32px;
-    .box-category{
-        width: 12%;
-
+    .box-category{  
         .title-category{
             color:$color-text-primary;
             font-size: 16px;

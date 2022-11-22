@@ -1,4 +1,12 @@
 import bannerLoja from '../../../img/banner/bannersmenu/bannerloja.png';
+import bannerBrasileiro from '../../../img/banner/bannersmenu/banner-brasileiro.png';
+import bannerInternacionais from '../../../img/banner/bannersmenu/banner-internacionais.png';
+import bannerSelecoes from '../../../img/banner/bannersmenu/banner-selecoes.png';
+import bannerFutebol from '../../../img/banner/bannersmenu/banner-futebol.png';
+import bannerTreino from '../../../img/banner/bannersmenu/banner-treino.png';
+import bannerEsportes from '../../../img/banner/bannersmenu/banner-esportes.png';
+import bannerCalcados from '../../../img/banner/bannersmenu/banner-calcados.png';
+import bannerCasual from '../../../img/banner/bannersmenu/banner-casual.png';
 
 function Menu_Desk(){
     return(
@@ -196,7 +204,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_brasileiros_link }}" target="{{ settings.menu_brasileiros_link_target }}">
-                                                            <img src="{{ asset(settings.menu_brasileiros_banner) }}" alt="" />
+                                                            <img className='bannermenu' src={bannerBrasileiro} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -301,7 +309,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_internacionais_link }}" target="{{ settings.menu_internacionais_link_target }}">
-                                                            <img src="{{ asset(settings.menu_internacionais_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerInternacionais} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -397,7 +405,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_selecoes_link }}" target="{{ settings.menu_selecoes_link_target }}">
-                                                            <img src="{{ asset(settings.menu_selecoes_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerSelecoes} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -507,7 +515,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_futebol_link }}" target="{{ settings.menu_futebol_link_target }}">
-                                                            <img src="{{ asset(settings.menu_futebol_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerFutebol} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -614,7 +622,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_treino_link }}" target="{{ settings.menu_treino_link_target }}">
-                                                            <img src="{{ asset(settings.menu_treino_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerTreino} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -741,7 +749,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_esportes_link }}" target="{{ settings.menu_esportes_link_target }}">
-                                                            <img src="{{ asset(settings.menu_esportes_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerEsportes} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -837,7 +845,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_calcados_link }}" target="{{ settings.menu_calcados_link_target }}">
-                                                            <img src="{{ asset(settings.menu_calcados_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerCalcados} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -935,7 +943,7 @@ function Menu_Desk(){
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
                                                         <a href="{{ settings.menu_casual_link }}" target="{{ setclasstings.menu_casual_link_target }}">
-                                                            <img src="{{ asset(settings.menu_casual_banner) }}" alt="" />
+                                                        <img className='bannermenu' src={bannerCasual} alt="banner intercionais" />
                                                         </a>
                                                     </div>
                                                 </div>

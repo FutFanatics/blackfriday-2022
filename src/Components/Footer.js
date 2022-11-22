@@ -32,23 +32,23 @@ function Footer(){
                 <div className="row pb-4">
                     <div className="col-3 d-flex flex-column">
                         <h2 className="title-footer">Institucional</h2>
-                        <a href="" className="links-footer">Sobre a FutFanatics </a>
-                        <a href="" className="links-footer">Programa de Afiliados</a>
-                        <a href="" className="links-footer">Trabalhe Conosco</a>
-                        <a href="" className="links-footer">Internacional Orders</a>
+                        <a href="https://www.futfanatics.com.br/empresa" className="links-footer">Sobre a FutFanatics </a>
+                        <a href="https://www.futfanatics.com.br/afiliados" className="links-footer">Programa de Afiliados</a>
+                        <a href="https://www.futfanatics.com.br/trabalheconosco" className="links-footer">Trabalhe Conosco</a>
+                        <a href="https://www.futfanatics.net/?utm_source=futfanatics-nacional&utm_medium=referral&utm_campaign=site" className="links-footer">Internacional Orders</a>
                     </div>
                     <div className="col-3 d-flex flex-column">
                         <h2 className="title-footer">AJUDA</h2>
                         <a href="" className="links-footer">Cadastro</a>
                         <a href="" className="links-footer">Frete e entrega</a>
                         <a href="" className="links-footer">Produtos e serviços</a>
-                        <a href="" className="links-footer">Trocas e Devolução</a>
-                        <a href="" className="links-footer">Política de Privacidade</a>
+                        <a href="https://www.futfanatics.com.br/politica-de-trocas-e-devolucoe" className="links-footer">Trocas e Devolução</a>
+                        <a href="https://www.futfanatics.com.br/politica-de-privacidade" className="links-footer">Política de Privacidade</a>
                     </div>
                     <div className="col-3 d-flex flex-column">
                     <h2 className="title-footer">contato</h2>
-                    <a href="" className="links-footer">Portal de Ajuda</a>
-                    <a href="" className="links-footer">Trocas e Devolução</a>
+                    <a href="https://www.futfanatics.com.br/portal-de-ajuda" className="links-footer">Portal de Ajuda</a>
+                    <a href="https://www.futfanatics.com.br/politica-de-trocas-e-devolucoes" className="links-footer">Trocas e Devolução</a>
                     <a href="" className="links-footer">
                     <img className="icon-cel" src={icontel}/>
                         (18) 3199-0404 
@@ -58,17 +58,25 @@ function Footer(){
                         <h2 className="title-footer">Certificado</h2>
                         <div className='box-images row'>
                             <div className='col-4'>
-                            <img src={iconcertificado4} className='img-certificado'/>
+                                <a href=''>
+                                    <img src={iconcertificado4} className='img-certificado'/>
+                                </a>
                             </div>
                             <div className='col-4'>
-                                <img src={iconcertificado2} className='img-certificado'/>
+                                <a href=''>
+                                    <img src={iconcertificado2} className='img-certificado'/>
+                                </a>
                             </div>
                             <div className='col-4'>
-                                <img src={iconcertificado1} className='img-certificado'/>
+                                <a href=''>
+                                    <img src={iconcertificado1} className='img-certificado'/>
+                                </a>
                             </div>
                             
                             <div className='col-6'>
-                                <img src={iconcertificado3} className='img-certificado img-certificado__last'/>
+                                <a href=''>
+                                    <img src={iconcertificado3} className='img-certificado img-certificado__last'/>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -84,8 +92,13 @@ function Footer(){
                         <img className='pagament' src={pagament7}/>
                     </div>
                     <div className='col-4 d-flex justify-content-end'>
-                        <img className='app-img' src={playstore}/>
-                        <img className='app-img' src={applestore}/>
+                        <a href='https://play.google.com/store/apps/details?id=com.futfanatics&pli=1'>
+                            <img className='app-img' src={playstore}/>
+                        </a>
+                        <a href='https://apps.apple.com/br/app/futfanatics/id1422835821'>
+                            <img className='app-img' src={applestore}/>
+                        </a>
+                       
                     </div>
                 </div>
 
@@ -99,11 +112,21 @@ function Footer(){
                         </p>
                     </div>
                     <div className='col-2 d-flex box-shared'>
-                        <img className='img-shared' src={twitter}/>
-                        <img className='img-shared' src={instagram}/>
-                        <img className='img-shared' src={facebook}/>
-                        <img className='img-shared' src={youtube}/>
+                        <a href='https://twitter.com/futfanatics'>
+                            <img className='img-shared' src={twitter}/>
+                        </a>
+                        <a href='https://www.instagram.com/futfanatics/'>
+                            <img className='img-shared' src={instagram}/>
+                        </a>
+                        <a href='https://www.facebook.com/futfanatics'>
+                            <img className='img-shared' src={facebook}/>
+                        </a>
+                        <a href='https://www.youtube.com/user/futfanaticsbr'>
+                            <img className='img-shared' src={youtube}/>
+                        </a>
+                        <a href='https://www.tiktok.com/@futfanaticsoficial?'>
                         <img className='img-shared' src={tiktok}/>
+                        </a>
                     </div>
                 </div>
             </div>

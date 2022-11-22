@@ -20,25 +20,25 @@ const BannersShirt = () => {
                 <div className="container d-none d-md-block">
                     <div className="row">
                         <div className="col-5 pb-4 position-relative">
-                            <a href='' className=''>
-                                <img src={banner1} className='banner w-100' alt=''/>
+                            <a href='https://www.futfanatics.com.br/selecoes?loja=311840&categoria=4&variacao=tipo-de-produto_camisa&range=' className=''>
+                                <img src={banner1} className='banner w-100' alt='Ofertas Seleções'/>
                             </a>
                         </div>
                         <div className="col-7 position-relative">
-                            <a href='' className=''>
-                                <img src={banner2} className='banner w-100' alt=''/>
+                            <a href='https://www.futfanatics.com.br/clubes-brasileiros?loja=311840&categoria=11&range=&variacao=camisa-oficial_sim&order=1' className=''>
+                                <img src={banner2} className='banner w-100' alt='Ofertas Clubes Brasileiros'/>
                             </a>
                         </div>
                     </div>
                     <div className='row '>
                         <div className="col-7 position-relative">
-                            <a href='' className=''>
-                                <img src={banner3} className=' banner w-100' alt=''/>
+                            <a href='https://www.futfanatics.com.br/selecoes/america-do-sul/brasil' className=''>
+                                <img src={banner3} className=' banner w-100' alt='Ofertas Brasil'/>
                             </a>
                         </div>
                         <div className="col-5 position-relative">
-                            <a href='' className=''>
-                                <img src={banner4} className='banner w-100' alt=''/>
+                            <a href='https://www.futfanatics.com.br/clubes-internacionais?variacao=camisa-oficial_sim' className=''>
+                                <img src={banner4} className='banner w-100' alt='Ofertas Clubes Internacionais'/>
                             </a>
                         </div>
                     </div>
