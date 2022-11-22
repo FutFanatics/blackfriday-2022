@@ -410,12 +410,14 @@
   
     .busca {
       form {
-        background: white;
-        border: 1px solid $gray-light;
+        background: #262626;
+        border: 1px solid 404040;
         border-radius: 100px;
         padding: 10px 24px;
   
         input {
+          background: #262626;
+          color: #757575;
           border: none;
           width: 100%;
           font-size: 14px;
@@ -927,6 +929,7 @@
   
             .child-container {
               position: absolute;
+              padding-bottom: 20px;
               z-index: 10;
               background: #000;
               width: 100%;

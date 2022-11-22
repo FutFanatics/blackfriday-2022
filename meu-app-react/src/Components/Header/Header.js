@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import $ from 'jquery';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Menu_Desk from "./Menu/Menu_Desk";
 
@@ -252,6 +253,7 @@ class Header extends Component  {
     render(){
         return (
             <header>
+                <FontAwesomeIcon icon="far fa-search" />
                 <div className="header-top">
                     <div className="header-infos">
                         <div className="container-fluid">
