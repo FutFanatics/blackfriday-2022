@@ -359,12 +359,14 @@ header .logo:hover {
   text-decoration: none;
 }
 header .busca form {
-  background: white;
-  border: 1px solid #DFE1E5;
+  background: #262626;
+  border: 1px solid 404040;
   border-radius: 100px;
   padding: 10px 24px;
 }
 header .busca form input {
+  background: #262626;
+  color: #757575;
   border: none;
   width: 100%;
   font-size: 14px;
@@ -755,6 +757,7 @@ header .header-nav .tag-new {
   }
   .header-nav nav > ul > li .child-container {
     position: absolute;
+    padding-bottom: 20px;
     z-index: 10;
     background: #000;
     width: 100%;

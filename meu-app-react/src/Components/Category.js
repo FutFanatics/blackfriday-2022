@@ -40,50 +40,50 @@ const Category = () => {
                 <Slider {...categorySlide} className='category'>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Internacionais</span>
-                        <a className='' href=''>
-                            <img src={item1} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/clubes-internacionais'>
+                            <img src={item1} className="img-category" alt="categoria internacional"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Nacionais</span>
-                        <a className='' href=''>
-                            <img src={item2} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/clubes-brasileiros'>
+                            <img src={item2} className="img-category" alt="Categoria nacionais"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
-                        <span className='title-category'>Casuais</span>
-                        <a className='' href=''>
-                            <img src={item3} className="img-category" alt="banner cocielo"/>
+                        <span className='title-category'>Acessórios</span>
+                        <a className='' href='https://www.futfanatics.com.br/casual?variacao=tipo-de-produto_bolsa_bone_cueca_gorro_kit-de-cueca_mochila_relogio_mala_pochete_oculos-de-sol_viseira_estojo'>
+                            <img src={item3} className="img-category" alt="Categoria acessórios"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Calçados</span>
-                        <a className='' href=''>
-                            <img src={item4} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/calcados'>
+                            <img src={item4} className="img-category" alt="Categoria calçados"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Futebol</span>
-                        <a className='' href=''>
-                            <img src={item5} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/futebol'>
+                            <img src={item5} className="img-category" alt="Categoria Futebol"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Treino</span>
-                        <a className='' href=''>
-                            <img src={item6} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/treino'>
+                            <img src={item6} className="img-category" alt="Categoria Treino"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Casuais</span>
-                        <a className='' href=''>
-                            <img src={item7} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/casual'>
+                            <img src={item7} className="img-category" alt="Categoria Casuais"/>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Esportes</span>
-                        <a className='' href=''>
-                            <img src={item8} className="img-category" alt="banner cocielo"/>
+                        <a className='' href='https://www.futfanatics.com.br/esportes'>
+                            <img src={item8} className="img-category" alt="Categoria Esportes"/>
                         </a>
                     </div>
                 </Slider>
