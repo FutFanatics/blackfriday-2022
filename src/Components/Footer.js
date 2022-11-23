@@ -31,6 +31,9 @@ import Collapse from 'react-bootstrap/Collapse';
 
 function Footer(){
     const [open, setOpen] = useState(false);
+    const [help, sethelp] = useState(false);
+    const [contact, setcontact] = useState(false);
+    const [certificate, setcertificate] = useState(false);
     return(
         <section className="c-footer">
             <div className="container d-none d-md-block">
@@ -140,15 +143,15 @@ function Footer(){
             </div>
             <div className='container d-md-none'>
                 <div className='box-collapse'>
-                    <span className='title-footer' onClick={() => setOpen(!open)}
-                aria-controls="example-collapse-text"
+                    <p className='title-footer-mob' onClick={() => setOpen(!open)}
+                aria-controls="colapseinstitucional"
                 aria-expanded={open}
             >
                 Institucional
-                    </span>
+                    </p>
                     <Collapse in={open}>
-                        <div id="example-collapse-text">
-                            <div className='d-flex flex-column'>
+                        <div id="colapseinstitucional">
+                            <div className='d-flex flex-column mt-3'>
                                 <a href="https://www.futfanatics.com.br/empresa" className="links-footer">Sobre a FutFanatics </a>
                                 <a href="https://www.futfanatics.com.br/afiliados" className="links-footer">Programa de Afiliados</a>
                                 <a href="https://www.futfanatics.net/?utm_source=futfanatics-nacional&utm_medium=referral&utm_campaign=site" className="links-footer">Internacional Orders</a>
@@ -158,15 +161,15 @@ function Footer(){
                     </Collapse>
                 </div>
                 <div className='box-collapse'>
-                    <span className='title-footer' onClick={() => setOpen(!open)}
+                    <p className='title-footer-mob' onClick={() => sethelp(!help)}
                 aria-controls="example-collapse-text"
-                aria-expanded={open}
+                aria-expanded={help}
             >
                 AJUDA
-                    </span>
-                    <Collapse in={open}>
+                    </p>
+                    <Collapse in={help}>
                         <div id="example-collapse-text">
-                            <div className='d-flex flex-column'>
+                            <div className='d-flex flex-column mt-3'>
                             <a href="https://www.futfanatics.com.br/politica-de-trocas-e-devolucoes" className="links-footer">Trocas e Devolução</a>
                             <a href="https://www.futfanatics.com.br/politica-de-privacidade" className="links-footer">Política de Privacidade</a>
                             <a href="https://www.futfanatics.com.br/regulamentos" className="links-footer">Regulamentos</a>
@@ -175,15 +178,15 @@ function Footer(){
                     </Collapse>
                 </div>
                 <div className='box-collapse'>
-                    <span className='title-footer' onClick={() => setOpen(!open)}
+                    <p className='title-footer-mob' onClick={() => setcontact(!contact)}
                 aria-controls="example-collapse-text"
-                aria-expanded={open}
+                aria-expanded={contact}
             >
                 contato
-                    </span>
-                    <Collapse in={open}>
+                    </p>
+                    <Collapse in={contact}>
                         <div id="example-collapse-text">
-                            <div className='d-flex flex-column'>
+                            <div className='d-flex flex-column mt-3'>
                             <a href="https://www.futfanatics.com.br/portal-de-ajuda" className="links-footer">Portal de Ajuda</a>
                             <a href="https://www.futfanatics.com.br/trabalheconosco" className="links-footer">Trabalhe Conosco</a>
                             <a href="tel:+551148583500" className="links-footer">
@@ -199,11 +202,11 @@ function Footer(){
                     </Collapse>
                 </div>
                 <div className='box-collapse'>
-                    <span className='title-footer' onClick={() => setOpen(!open)}
-                    aria-controls="example-collapse-text" aria-expanded={open}>
+                    <p className='title-footer-mob' onClick={() => setcertificate(!certificate)}
+                    aria-controls="example-collapse-text" aria-expanded={certificate}>
                     Certificado
-                    </span>
-                    <Collapse in={open}>
+                    </p>
+                    <Collapse in={certificate}>
                         <div id="example-collapse-text">
                         <div className='box-images row'>
                             <div className='col-4'>
@@ -230,9 +233,45 @@ function Footer(){
                         </div>
                         </div>
                     </Collapse>
+                </div> 
+                <div className='box-app d-flex flex-column align-items-center'>
+                <span className='title-footer'>Baixe o app</span>
+                    <a href='https://play.google.com/store/apps/details?id=com.futfanatics&pli=1' className='app-img app-img-mob'>
+                            <img  src={playstore}/>
+                        </a>
+                        <a href='https://apps.apple.com/br/app/futfanatics/id1422835821'  className='app-img mt-2'>
+                            <img src={applestore}/>
+                        </a>
+                </div>
+                <div className='row sign'>
+                    <div className='col-12 d-flex flex-column align-items-center'>
+                        <img src={signature} class='sign-futfanatics'/>
+                        <p className='content-sign'>
+                        FF.Com Esportes Ltda CNPJ 05.328.923/0001-90 Rodovia Arthur Boigues Filho, 59 CEP: 19026-650 Presidente Prudente - SP Copyright 2012-2017 www.futfanatics.com.br - TODOS OS
+                        DIREITOS RESERVADOS. É vetada a reprodução total ou parcial das informações aqui veiculadas sem a expressa autorização da administração do site. Os preços e condições depagamento
+                        são válidos exclusivamente para compras realizadas via internete
+                        </p>
+                    </div>
+                    <div className='col-2 d-flex box-shared'>
+                        <a href='https://twitter.com/futfanatics'>
+                            <img className='img-shared' src={twitter}/>
+                        </a>
+                        <a href='https://www.instagram.com/futfanatics/'>
+                            <img className='img-shared' src={instagram}/>
+                        </a>
+                        <a href='https://www.facebook.com/futfanatics'>
+                            <img className='img-shared' src={facebook}/>
+                        </a>
+                        <a href='https://www.youtube.com/user/futfanaticsbr'>
+                            <img className='img-shared' src={youtube}/>
+                        </a>
+                        <a href='https://www.tiktok.com/@futfanaticsoficial?'>
+                        <img className='img-shared' src={tiktok}/>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
+        </section>  
 
     );
 };

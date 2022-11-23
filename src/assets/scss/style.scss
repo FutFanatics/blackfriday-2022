@@ -320,6 +320,17 @@
       color: #fff;
       font-weight: 600;
       margin-bottom: 20px;
+
+    }
+    .title-footer-mob{
+      
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 0px;
+      
+      
     }
     .links-footer{
       color: $color-text-primary;
@@ -369,6 +380,10 @@
       margin-right: 8px;
       width: 40%;
 
+      &-mob{
+        margin-right: 0px;
+      }
+
       img{
           width: 100%;
       }
@@ -377,6 +392,11 @@
       &:last-child{
         margin-right: 0px;
       }
+    }
+    .box-collapse{
+      border-bottom:1px solid $color-text-primary;
+      padding-bottom: 16px;
+      padding-top: 16px;
     }
 
     .sign{
@@ -1082,6 +1102,7 @@
       }
     }
   }
+
   
   @media (max-width: 991px) {
     .menu-desk {
