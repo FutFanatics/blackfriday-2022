@@ -956,7 +956,7 @@
   
             .child-container {
               position: absolute;
-              padding-bottom: 20px;
+              
               z-index: 10;
               background: #000;
               width: 100%;
@@ -1045,7 +1045,7 @@
               }
             }
   
-            &.hover {
+            &:hover {
               > a {
                 &:before {
                   width: 100%;
@@ -1057,6 +1057,7 @@
                 // display: block;
                 height: auto;
                 opacity: 1;
+                padding-bottom: 20px;
                 // transition-delay: 0.5s;
               }
             }

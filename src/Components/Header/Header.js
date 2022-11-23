@@ -65,17 +65,17 @@ class Header extends Component  {
             return false;
         });
 
-        $('.header-nav nav > ul > li.parent').on('mouseenter',function() {
-            console.log('----')
-            console.log(this)
-            $(this).addClass('hover');
-            $('.bg-menu').stop(true, true).fadeIn();
-        })
+        // $('.header-nav nav > ul > li.parent').on('mouseenter',function() {
+        //     console.log('----')
+        //     console.log(this)
+        //     //$(this).addClass('hover');
+        //     //$('.bg-menu').stop(true, true).fadeIn();
+        // })
         
-        $('.header-nav nav > ul > li.parent').on('mouseleave',function() {
-            $(this).removeClass('hover');
-            $('.bg-menu').stop(true, true).fadeOut();
-        });
+        // $('.header-nav nav > ul > li.parent').on('mouseleave',function() {
+        //     //$(this).removeClass('hover');
+        //     //$('.bg-menu').stop(true, true).fadeOut();
+        // });
 
         $('header .menu-mob-open').on('click', function() {
             $('body').addClass('menu-open');
