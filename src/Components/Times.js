@@ -70,6 +70,8 @@ function Times(){
               ]
                 
               };
+
+              const active = 'active';
               const[nacionais, setNacionais] = useState(true);
               return (
 
@@ -78,10 +80,10 @@ function Times(){
                         <div className='w-100 d-flex justify-content-center'>
                             <h2 className='title-times title-times-nacionais'onClick={() => {
           setNacionais(true);
-        }} > Times Nacionais</h2>
+        }} {...active} > Times Nacionais</h2>
                             <h2 className='title-times title-times-internacionais' onClick={() => {
           setNacionais(false);
-        }}> Times Internacionais</h2>
+        }} {...active} > Times Internacionais</h2>
                         </div>
                       {nacionais   &&  <Slider {...timesbrasil} className="times-nacionais">
                         <div className='d-flex justify-content-center'>

@@ -65,27 +65,30 @@ class Header extends Component  {
             return false;
         });
 
-        $('.header-nav nav > ul > li.parent').hover(function() {
+        $('.header-nav nav > ul > li.parent').on('mouseenter',function() {
+            console.log('----')
             console.log(this)
             $(this).addClass('hover');
             $('.bg-menu').stop(true, true).fadeIn();
-        }, function() {
+        })
+        
+        $('.header-nav nav > ul > li.parent').on('mouseleave',function() {
             $(this).removeClass('hover');
             $('.bg-menu').stop(true, true).fadeOut();
         });
 
-        $('body','header .menu-mob-open').on('click', function() {
+        $('header .menu-mob-open').on('click', function() {
             $('body').addClass('menu-open');
             $('.header-nav').css('left', '0');
         });
 
-        $('body','header .menu-mob-close').on('click', function() {
+        $('header .menu-mob-close').on('click', function() {
             $('body').removeClass('menu-open');
             $('.header-nav').css('left', '-100%');
         });
 
         if (isMobile()) {
-            $('body','.header-nav a').on('click', function(event) {
+            $('.header-nav a').on('click', function(event) {
                 var href = $(this).attr('href');
                 if (href == "") {
                     $(this).parents('ul').scrollTop(0);
@@ -97,7 +100,7 @@ class Header extends Component  {
                 }
             });
 
-            $('body','.header-nav li.back').on('click', function(event) {
+            $('.header-nav li.back').on('click', function(event) {
                 $(this).parent().hide().parents('ul').css('overflow-y', 'auto');
                 if ($(this).parents('ul').length < 3) {
                     $('.header-nav .nav-top a.link-user').addClass('invisible');
@@ -126,7 +129,7 @@ class Header extends Component  {
             }
         });
 
-        $('body','header .links-usuario .central > a, header .links-usuario .cart-header > a').on('click', function() {
+        $('header .links-usuario .central > a, header .links-usuario .cart-header > a').on('click', function() {
             if (!isMobile()) {
                 
                 if (!$('.cart-note').hasClass('d-none')) {

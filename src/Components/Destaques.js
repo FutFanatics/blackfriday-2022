@@ -105,7 +105,7 @@ function Destaques(){
                         </a>   
                 </div> 
                 <div className='container-card'>
-                    <a href="" className="link-destaque">
+                    <a href="https://www.futfanatics.com.br/camisa-brasil-7-allejo-amarela" className="link-destaque">
                         <div className="card-destaque">
                             <img src={item11} className="img-card"  alt=''/>
                         </div>

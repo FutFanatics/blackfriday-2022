@@ -213,6 +213,10 @@
 .c-carousel-marcas .img-marca {
   height: 80px;
   object-fit: contain;
+  transition: ease-in-out 0.6s;
+}
+.c-carousel-marcas .img-marca:hover {
+  transform: scale(1.1);
 }
 
 .c-destaque {
@@ -321,6 +325,9 @@
 .c-footer .app-img {
   margin-right: 8px;
   width: 40%;
+}
+.c-footer .app-img img {
+  width: 100%;
 }
 .c-footer .app-img:last-child {
   margin-right: 0px;

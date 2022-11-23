@@ -239,6 +239,11 @@
     .img-marca{
       height: 80px;
       object-fit: contain;
+      transition: ease-in-out .6s;
+
+      &:hover{
+        transform: scale(1.10);
+      }
     }
   }
   .c-destaque{
@@ -362,6 +367,11 @@
     .app-img{
       margin-right: 8px;
       width: 40%;
+
+      img{
+          width: 100%;
+      }
+        
 
       &:last-child{
         margin-right: 0px;

@@ -13,7 +13,7 @@ import Marcas from './Components/Marcas';
 import Destaques from './Components/Destaques';
 import Footer from './Components/Footer';
 import BannersBottom from './Components/banners_bottom';
-import Testeira from './Components/Testeira';
+//import Testeira from './Components/Testeira';
 // STYLE
 import './assets/css/style.css';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
@@ -25,7 +25,6 @@ import  'bootstrap/dist/css/bootstrap.min.css' ;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Testeira/>
     <Header/>
     <App/>
     <Topo/>

@@ -52,76 +52,107 @@ function Marcas(){
                 </div>
                 <Slider {...marcas} className='marcas'>
                         <div className='d-flex justify-content-center'>
-                            <a href=''>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Adidas&order=hot'>
                                 <img src={item1} className="img-marca" alt=''/>
                             </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <a href=''>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Puma&order=hot'>
                                 <img src={item2} className="img-marca" alt=''/>
                             </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <a href=''>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Umbro&order=hot'>
                                 <img src={item3} className="img-marca" alt=''/>
                             </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <a href=''>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Kappa&order=hot'>
                                 <img src={item4} className="img-marca" alt=''/>
                             </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <a href=''>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Fila&order=hot'>
                                 <img src={item5} className="img-marca" alt=''/>
                             </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                            <a href=''>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Under%20Armour&order=hot'>
                                 <img src={item6} className="img-marca" alt=''/>
                             </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item7} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=New%20Balance&order=hot'>
+                            <img src={item7} className="img-marca" alt=''/>
+                            </a>
+                            
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item8} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=New%20Era&order=hot'>
+                                <img src={item8} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item9} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Olympikus&order=hot'>
+                                <img src={item9} className="img-marca" alt=''/>
+                            </a>
+                        
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item10} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=coca-cola&order=hot'>
+                                <img src={item10} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item11} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Penalty&order=hot'>
+                                <img src={item11} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item12} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=oxn&order=hot'>
+                                <img src={item12} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item13} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Mizuno&order=hot'>
+                                <img src={item13} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item14} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Spr&order=hot'>
+                                <img src={item14} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div>
-                        <img src={item15} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Braziline&order=hot'>
+                                <img src={item15} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item16} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Topper&order=hot'>
+                                <img src={item16} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item17} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=ecko&order=hot'>
+                                <img src={item17} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item18} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&avancada=1&buscamarca=Super%20Bolla&order=hot'>
+                                <img src={item18} className="img-marca" alt=''/>
+                            </a>
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item19} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&marca=marca_lotto'>
+                                <img src={item19} className="img-marca" alt=''/>
+                            </a>
+                        
                         </div>
                         <div className='d-flex justify-content-center'>
-                        <img src={item20} className="img-marca" alt=''/>
+                            <a href='https://www.futfanatics.com.br/loja/busca.php?loja=311840&marca=marca_asics'>
+                                <img src={item20} className="img-marca" alt=''/>
+                            </a>
                         </div>
                 </Slider>
             </div>
