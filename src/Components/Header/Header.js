@@ -7,8 +7,10 @@ import logo from "../../img/icon/futfanatics.svg";
 import iconUser from '../../img/icon/iconuser.svg';
 import iconcart from '../../img/icon/iconcart.svg';
 import iconinternacional from "../../img/icon/internacional.svg";
+import menu from "../../img/icon/hamburguer.svg";
 
 import '../../assets/css/style.css';
+import Menu_Mobile from './Menu/Menu_Mobile';
 
 
 class Header extends Component  {
@@ -260,7 +262,7 @@ class Header extends Component  {
                         <div className="container-fluid">
                             <div className="row py-3 align-items-center">
                                 <div className="col-4 d-lg-none">
-                                    <button className="menu-mob-open icon-menu"><i className="icon-menu d-none"></i></button>
+                                    <button className="menu-mob-open icon-menu"><img className="icon-menu d-md-none" src={menu}/></button>
                                 </div>
                                 <div className="col-4 col-lg-1 d-flex justify-content-center justify-content-lg-start">
                                     <a href="https://futfanatics.com.br" className="logo">
@@ -333,6 +335,7 @@ class Header extends Component  {
                     </div>
                     <div className="header-nav">
                         <Menu_Desk/>
+                        <Menu_Mobile/>
                     </div>
                 </div>
             </header>
