@@ -23,6 +23,7 @@ import instagram from '../img/icon/share/instagram.svg';
 import tiktok from '../img/icon/share/tiktok.svg';
 import youtube from '../img/icon/share/youtube.svg';
 
+
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
@@ -245,7 +246,7 @@ function Footer(){
                 </div>
                 <div className='row sign'>
                     <div className='col-12 d-flex flex-column align-items-center'>
-                        <img src={signature} class='sign-futfanatics'/>
+                        <img src={signature} class='sign-futfanatics mt-4 mb-3'/>
                         <p className='content-sign'>
                         FF.Com Esportes Ltda CNPJ 05.328.923/0001-90 Rodovia Arthur Boigues Filho, 59 CEP: 19026-650 Presidente Prudente - SP Copyright 2012-2017 www.futfanatics.com.br - TODOS OS
                         DIREITOS RESERVADOS. É vetada a reprodução total ou parcial das informações aqui veiculadas sem a expressa autorização da administração do site. Os preços e condições depagamento

@@ -1,3 +1,4 @@
+import user from '../../../img/icon/iconuser.svg';
 function Menu_Mobile(){
     return(
 
@@ -5,7 +6,7 @@ function Menu_Mobile(){
     <div className="d-flex align-items-center justify-content-between nav-top">
         <button className="menu-mob-close"><i className="icon-close"></i></button>
         <span>Menu</span>
-        <a href="https://www.futfanatics.com.br/central-do-cliente" className="link-user invisible"><i className="icon-user"></i></a>
+        <a href="https://www.futfanatics.com.br/central-do-cliente" className="link-user invisible"><img className="icon-user" src={user}/></a>
     </div>
     <ul>
         <li className="link-user"><a href="https://www.futfanatics.com.br/central-do-cliente" className="d-flex align-items-center justify-content-center"><i className="icon-user"></i>Entrar ou Cadastrar-se</a></li>

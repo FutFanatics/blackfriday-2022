@@ -5,6 +5,7 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
+
 *{
   text-decoration: none;
 }
@@ -26,6 +27,8 @@
       object-fit: contain;
     }
   }
+  
+
   .link-internacional{
     display: flex;
     align-items: center;
@@ -401,14 +404,22 @@
 
     .sign{
       .sign-futfanatics{
-        width: 40%;
+        width: 125px;
+        @include md{
+          width: 40%;
+        }
+        
       }
       .content-sign{
         font-size: 14px;
         color: $color-text-primary;
         line-height: 1.4rem;
-        padding:16px;
+        text-align: center;
         padding-top: 0px;
+        @include md{
+          padding: 16px;
+          text-align: start;
+        }
       }
       .img-shared{
         width: 25px;
@@ -1155,26 +1166,28 @@
       height: 100%;
       top: 0;
       left: -100%;
-      background: white;
+      background: #1F1F1F;
       position: absolute;
       z-index: 9999;
   
       nav {
         .nav-top {
           padding: 20px 15px;
+          background-color: $background-primary;
   
           button, a {
             padding: 0;
             border: 0;
             background: none;
             font-size: 25px;
-            color: $gray-dark;
+            color: #D7D7D7;
           }
   
           span {
             font-size: 16px;
             font-weight: $fw-black;
             text-transform: uppercase;
+            color: #D7D7D7;
           }
         }
   
@@ -1184,7 +1197,7 @@
           width: 100%;
           height: calc(100% - 65px);
           left: 0;
-          background: white;
+          background: #1F1F1F;
           z-index: 1;
           overflow-y: auto;
   
@@ -1195,7 +1208,7 @@
             text-transform: uppercase;
             color: $color-text-primary;
             display: block;
-            border-top: 1px solid $gray-light;
+            border-top: 1px solid #404040;
             margin: 0 15px;
   
             &:first-child {
@@ -1205,8 +1218,9 @@
             &.link-user {
               margin-left: 0;
               margin-right: 0;
-              background: $color-text-primary;
-              color: white;
+              background: #1E6200;
+              color: #000;
+              text-decoration: none;
   
               i {
                 position: relative;
@@ -1215,6 +1229,9 @@
   
               + li {
                 border-top: 0;
+              }
+              a{ 
+                text-decoration: none;
               }
             }
   
@@ -1249,6 +1266,7 @@
               position: relative;
               display: block;
               padding: 15px;
+              text-decoration: none;
   
               i {
                 font-size: 26px;
