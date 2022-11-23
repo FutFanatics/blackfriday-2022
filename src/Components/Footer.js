@@ -253,7 +253,7 @@ function Footer(){
                         são válidos exclusivamente para compras realizadas via internete
                         </p>
                     </div>
-                    <div className='col-2 d-flex box-shared'>
+                    <div className='col-12 d-flex box-shared justify-content-center'>
                         <a href='https://twitter.com/futfanatics'>
                             <img className='img-shared' src={twitter}/>
                         </a>

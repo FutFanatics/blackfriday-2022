@@ -269,7 +269,7 @@ class Header extends Component  {
                                         <img className="icon-logo-fut" src={logo}/>
                                     </a>
                                 </div>
-                                <div className="col-12 order-last col-lg-8 order-lg-0">
+                                <div className="col-12 order-last col-lg-8 order-lg-0 position-relative">
                                     <div className="busca">
                                         <form action="https://busca.futfanatics.com.br/busca" className="d-flex align-items-center">
                                             <input type="hidden" name="loja" value="{{ store.id }}" />

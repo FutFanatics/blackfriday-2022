@@ -61,7 +61,7 @@ function Times(){
                   {
                       breakpoint: 600,
                       settings : {
-                        slidesToShow: 3,
+                        slidesToShow: 4,
                         slidesToScroll: 2,
                         dots: false,
                         arrows:false,
@@ -78,14 +78,15 @@ function Times(){
                 <div className='c-carousel-times'>
                     <div className='container'>
                         <div className='w-100 d-flex justify-content-center'>
-                            <h2 className='title-times title-times-nacionais'onClick={() => {
+                            <h2 className={nacionais ? "title-times active" : "title-times" } onClick={() => {
           setNacionais(true);
-        }} {...active} > Times Nacionais</h2>
-                            <h2 className='title-times title-times-internacionais' onClick={() => {
+        }} {...active}>Times Nacionais</h2>
+        
+                            <h2 className={!nacionais ? "title-times active" : "title-times" } onClick={() => {
           setNacionais(false);
-        }} {...active} > Times Internacionais</h2>
+        }}> Times Internacionais</h2>
                         </div>
-                      {nacionais   &&  <Slider {...timesbrasil} className="times-nacionais">
+                      {nacionais  && <Slider {...timesbrasil} className="times-nacionais">
                         <div className='d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/flamengo'>
                             <img src={item1} className="img-times" alt='Flamengo'/>
