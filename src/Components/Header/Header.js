@@ -258,7 +258,7 @@ class Header extends Component  {
                 <div className="header-top">
                     <div className="header-infos">
                         <div className="container-fluid">
-                            <div className="row pb-3 align-items-center">
+                            <div className="row py-3 align-items-center">
                                 <div className="col-4 d-lg-none">
                                     <button className="menu-mob-open icon-menu"><i className="icon-menu d-none"></i></button>
                                 </div>
