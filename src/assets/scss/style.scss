@@ -153,8 +153,13 @@
 
   .c-banners_shirt{
     padding-bottom: 32px;
+    .thumbnail{
+      overflow: hidden;
+      border-radius: 10px;
+    }
     .banner{
-        max-height: 360px;
+      object-fit: cover;
+        max-height: 420px;
         transition: ease-in-out .6s;
         &:hover{
            transform:scale(1.05);

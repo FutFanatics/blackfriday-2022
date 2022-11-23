@@ -130,8 +130,13 @@
 .c-banners_shirt {
   padding-bottom: 32px;
 }
+.c-banners_shirt .thumbnail {
+  overflow: hidden;
+  border-radius: 10px;
+}
 .c-banners_shirt .banner {
-  max-height: 360px;
+  object-fit: cover;
+  max-height: 420px;
   transition: ease-in-out 0.6s;
 }
 .c-banners_shirt .banner:hover {
