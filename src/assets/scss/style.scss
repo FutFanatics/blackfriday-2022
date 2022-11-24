@@ -166,6 +166,15 @@
            
         }
     }
+    .box-banner{
+      border-radius:10px;
+      overflow: hidden;
+      padding: 6px;
+      
+      img{
+        border-radius: 10px;
+      }
+    }
   }
   .c-carousel-times{
     margin-bottom: 48px;
@@ -277,6 +286,10 @@
           object-fit:contain;
           position: relative;
           transition: ease-in-out 0.6s;
+          border-radius: 10px;
+          @include md{
+            border-radius: 0px;
+          }
           
           &:hover{
           

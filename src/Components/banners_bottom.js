@@ -6,6 +6,13 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+/*mobile*/
+import bannermob from '../img/banner/bannersmob/banner5.png';
+import bannermob2 from '../img/banner/bannersmob/banner6.png';
+import bannermob3 from '../img/banner/bannersmob/banner7.png';
+import bannermob4 from '../img/banner/bannersmob/banner8.png';
+
+
 function BannersBottom() {
     const bannerBottom={
         dots:false,
@@ -52,11 +59,17 @@ function BannersBottom() {
                 </div>
                 <div className='container d-md-none'>
                     <Slider {...bannerBottom}>
-                        <div className='col-12 p-2'>
-                            <img className='img-banner w-100' src={banner1}/>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100' src={bannermob}/>
                         </div>
-                        <div className='col-12 p-2'>
-                            <img className='img-banner w-100'  src={banner1}/>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100'  src={bannermob2}/>
+                        </div>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100'  src={bannermob3}/>
+                        </div>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100'  src={bannermob4}/>
                         </div>
                     </Slider>
                 </div>

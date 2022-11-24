@@ -10,6 +10,7 @@ import item9 from '../img/destaque/braziline.png';
 import item10 from '../img/destaque/passaro-preto.png';
 
 import item11 from '../img/destaque/allejo.png';
+import item12 from '../img/destaque/oxn.png';
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
@@ -108,6 +109,13 @@ function Destaques(){
                     <a href="https://www.futfanatics.com.br/camisa-brasil-7-allejo-amarela" className="link-destaque">
                         <div className="card-destaque">
                             <img src={item11} className="img-card"  alt=''/>
+                        </div>
+                    </a>    
+                </div>
+                <div className='container-card'>
+                    <a href="https://www.futfanatics.com.br/camisa-passaro-preto-ibis-ii-2021" className="link-destaque">
+                        <div className="card-destaque">
+                            <img src={item12} className="img-card"  alt=''/>
                         </div>
                     </a>    
                 </div>

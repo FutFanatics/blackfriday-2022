@@ -142,6 +142,14 @@
 .c-banners_shirt .banner:hover {
   transform: scale(1.05);
 }
+.c-banners_shirt .box-banner {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 6px;
+}
+.c-banners_shirt .box-banner img {
+  border-radius: 10px;
+}
 
 .c-carousel-times {
   margin-bottom: 48px;
@@ -247,6 +255,12 @@
   object-fit: contain;
   position: relative;
   transition: ease-in-out 0.6s;
+  border-radius: 10px;
+}
+@media (min-width: 1200px) {
+  .c-destaque .link-destaque .card-destaque .img-card {
+    border-radius: 0px;
+  }
 }
 .c-destaque .link-destaque .card-destaque .img-card:hover {
   transform: scale(1.05);

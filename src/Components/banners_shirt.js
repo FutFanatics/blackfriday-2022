@@ -5,6 +5,11 @@ import banner3 from './../img/banner/banner_2.png';
 import banner4 from './../img/banner/banner_min_2.png';
 
 
+/*mobile*/
+import bannermob from '../img/banner/bannersmob/banner1.png';
+import bannermob2 from '../img/banner/bannersmob/banner2.png';
+import bannermob3 from '../img/banner/bannersmob/banner3.png';
+import bannermob4 from '../img/banner/bannersmob/banner4.png';
 
 
 const BannersShirt = () => {
@@ -53,11 +58,17 @@ const BannersShirt = () => {
                 </div>
                 <div className='container d-md-none'>
                     <Slider {...bannerShirt}>
-                        <div className='col-12 p-2'>
-                            <img className='img-banner w-100' src={banner1}/>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100' src={bannermob}/>
                         </div>
-                        <div className='col-12 p-2'>
-                            <img className='img-banner w-100'  src={banner1}/>
+                        <div className='col-12   box-banner'>
+                            <img className='img-banner w-100'  src={bannermob2}/>
+                        </div>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100'  src={bannermob3}/>
+                        </div>
+                        <div className='col-12 box-banner'>
+                            <img className='img-banner w-100'  src={bannermob4}/>
                         </div>
                     </Slider>
                 </div>
