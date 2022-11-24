@@ -17,9 +17,8 @@ import BannersBottom from './Components/banners_bottom';
 // STYLE
 import './assets/css/style.css';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
-
-
-
+import VitrineTop from './Components/VitrineTop';
+import VitrineMiddle from './Components/VitrineMiddle';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,9 +27,11 @@ root.render(
     <Header/>
     <App/>
     <Topo/>
+    <VitrineTop />
     <Category/>
     <BannersShirt/>
     <Times/>
+    <VitrineMiddle />
     <BannersBottom/>
     <Marcas/>
     <Destaques/>

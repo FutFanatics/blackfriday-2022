@@ -1,13 +1,74 @@
 
-//sass --watch assets/scss/style.scss:assets/css/style.css
+//sass --watch src/assets/scss/style.scss:src/assets/css/style.css
 
 @import 'variables';
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype'),
+        url('../fonts/Gotham-Book.svg#Gotham') format('svg');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype'),
+        url('../fonts/Gotham-Light.svg#Gotham') format('svg');
+    font-style: normal;
+    font-weight: $fw_light;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype'),
+        url('../fonts/Gotham-Bold.svg#Gotham') format('svg');
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype'),
+        url('../fonts/Gotham-Medium.svg#Gotham') format('svg');
+    font-style: normal;
+    font-weight: $fw_medium;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.eot');
+    src: url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype'),
+        url('../fonts/Gotham-Black.svg#Gotham') format('svg');
+    font-style: normal;
+    font-weight: $fw_black;
+    font-display: swap;
+}
+
 
 *{
   text-decoration: none;
+  font-family: 'Gotham'
 }
 #root{
     background-color: $background-primary;
@@ -178,6 +239,12 @@
   }
   .c-carousel-times{
     margin-bottom: 48px;
+
+    .time {
+      min-height: 100px;
+      display: flex;
+      align-items: center;
+    }
     .title-times{
       font-size: 16px;
       font-weight: 700;
@@ -186,6 +253,7 @@
       position: relative;
       margin-right:16px;
      margin-bottom: 36px;
+     text-align: center;
      cursor: pointer;
     
       @include md{
@@ -326,6 +394,7 @@
 
   .c-footer{
     padding-top: 32px;
+    padding-bottom: 30px;
 
     .container{
       border-top: 1px solid #424242;
@@ -420,7 +489,7 @@
       }
     }
     .box-collapse{
-      border-bottom:1px solid $color-text-primary;
+      border-bottom: 1px solid #404040;
       padding-bottom: 16px;
       padding-top: 16px;
     }
@@ -1162,6 +1231,7 @@
         margin-bottom: -15px;
         margin-left: -15px;
         margin-right: -15px;
+            width: calc(100vw - 5px) !important;
   
         form {
           border-radius: 0;
