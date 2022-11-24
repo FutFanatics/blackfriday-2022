@@ -379,8 +379,7 @@
   margin-bottom: 0px;
 }
 .c-footer .links-footer .icon-cel {
-  height: 18px;
-  width: 18px;
+  height: 25px;
   margin-right: 4px;
 }
 .c-footer .box-images .img-certificado {
@@ -1142,6 +1141,17 @@ header .header-nav .tag-new {
 }
 .octa-widget-v2 {
   display: none;
+}
+
+@media (max-width: 1400px) {
+  .c-banners_shirt .banner {
+    max-height: 360px;
+  }
+}
+@media (min-width: 1400px) {
+  .c-banners_shirt .banner {
+    max-height: 420px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

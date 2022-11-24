@@ -1,8 +1,8 @@
 import Slider from 'react-slick';
-import banner1 from './../img/banner/banner_min_1.png';
-import banner2 from './../img/banner/banner_1.png';
-import banner3 from './../img/banner/banner_2.png';
-import banner4 from './../img/banner/banner_min_2.png';
+import banner1 from './../img/banner/banner_min_1.jpg';
+import banner2 from './../img/banner/banner_1.jpg';
+import banner3 from './../img/banner/banner_2.jpg';
+import banner4 from './../img/banner/banner_min_2.jpg';
 
 
 /*mobile*/

@@ -3,7 +3,9 @@ import React, { Component } from "react";
 function VitrineTop(){
 
     return(
-        <div chaordic="top"></div>
+        <div className="container">
+            <div chaordic="top"></div>
+        </div>
     )
 }
 export default VitrineTop;

@@ -1,7 +1,7 @@
-import banner1 from './../img/banner/banner_min_3.png';
-import banner2 from './../img/banner/banner_3.png';
-import banner3 from './../img/banner/banner_4.png';
-import banner4 from './../img/banner/banner_min_4.png';
+import banner1 from './../img/banner/banner_min_3.jpg';
+import banner2 from './../img/banner/banner_3.jpg';
+import banner3 from './../img/banner/banner_4.jpg';
+import banner4 from './../img/banner/banner_min_4.jpg';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

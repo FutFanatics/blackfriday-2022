@@ -3,7 +3,10 @@ import React, { Component } from "react";
 function VitrineMiddle(){
 
     return(
-        <div chaordic="middle"></div>
+        <div className="container">
+            <div chaordic="middle"></div>
+        </div>
+
     )
 }
 export default VitrineMiddle;

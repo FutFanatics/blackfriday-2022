@@ -1,4 +1,4 @@
-import icontel from '../img/icon/telefone.svg';
+import icontel from '../img/icon/whats.svg';
 import iconcertificado1 from '../img/icon/image-1.svg';
 import iconcertificado2 from '../img/icon/image-2.svg';
 import iconcertificado3 from '../img/icon/image-3.svg';
@@ -23,6 +23,7 @@ import instagram from '../img/icon/share/instagram.svg';
 import tiktok from '../img/icon/share/tiktok.svg';
 import youtube from '../img/icon/share/youtube.svg';
 
+import iconSac from '../img/icon/sac.svg'
 import iconup from '../img/icon/icon-up.svg'
 import icondown from '../img/icon/icon-down.svg';
 import React, { useState } from 'react';
@@ -58,7 +59,7 @@ function Footer(){
                     <a href="https://www.futfanatics.com.br/portal-de-ajuda" className="links-footer">Portal de Ajuda</a>
                     <a href="https://www.futfanatics.com.br/trabalheconosco" className="links-footer">Trabalhe Conosco</a>
                     <a href="tel:+551148583500" className="links-footer">
-                    <img className="icon-cel" src={icontel}/>
+                    <img className="icon-cel" src={iconSac}/>
                         (11) 4858-3500
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=551833440404&text=Ol%C3%A1" className="links-footer">
@@ -192,7 +193,7 @@ function Footer(){
                             <a href="https://www.futfanatics.com.br/portal-de-ajuda" className="links-footer">Portal de Ajuda</a>
                             <a href="https://www.futfanatics.com.br/trabalheconosco" className="links-footer">Trabalhe Conosco</a>
                             <a href="tel:+551148583500" className="links-footer">
-                            <img className="icon-cel" src={icontel}/>
+                            <img className="icon-cel" src={iconSac}/>
                                 (11) 4858-3500
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=551833440404&text=Ol%C3%A1" className="links-footer">
