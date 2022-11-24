@@ -23,9 +23,9 @@ import instagram from '../img/icon/share/instagram.svg';
 import tiktok from '../img/icon/share/tiktok.svg';
 import youtube from '../img/icon/share/youtube.svg';
 
-
+import iconup from '../img/icon/icon-up.svg'
+import icondown from '../img/icon/icon-down.svg';
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
 
@@ -148,8 +148,9 @@ function Footer(){
                 aria-controls="colapseinstitucional"
                 aria-expanded={open}
             >
-                Institucional
+                Institucional   <img className='icon-down' src={!open ? icondown : iconup}/>
                     </p>
+                    
                     <Collapse in={open}>
                         <div id="colapseinstitucional">
                             <div className='d-flex flex-column mt-3'>
@@ -166,7 +167,7 @@ function Footer(){
                 aria-controls="example-collapse-text"
                 aria-expanded={help}
             >
-                AJUDA
+                AJUDA <img className='icon-down' src={!help ? icondown : iconup}/>
                     </p>
                     <Collapse in={help}>
                         <div id="example-collapse-text">
@@ -183,7 +184,7 @@ function Footer(){
                 aria-controls="example-collapse-text"
                 aria-expanded={contact}
             >
-                contato
+                contato <img className='icon-down' src={!contact ? icondown : iconup}/>
                     </p>
                     <Collapse in={contact}>
                         <div id="example-collapse-text">
@@ -205,7 +206,7 @@ function Footer(){
                 <div className='box-collapse'>
                     <p className='title-footer-mob' onClick={() => setcertificate(!certificate)}
                     aria-controls="example-collapse-text" aria-expanded={certificate}>
-                    Certificado
+                    Certificado <img className='icon-down' src={!certificate ? icondown : iconup}/>
                     </p>
                     <Collapse in={certificate}>
                         <div id="example-collapse-text">

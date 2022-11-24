@@ -291,6 +291,13 @@
   color: #fff;
   font-weight: 600;
   margin-bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.c-footer .title-footer-mob .icon-down {
+  height: 10px;
 }
 .c-footer .links-footer {
   color: #AEAEAE;
@@ -646,6 +653,12 @@ header .header-nav nav > ul > li.parent > a {
   margin-left: 6px;
   text-decoration: none;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+header .header-nav nav > ul > li.parent > a .icon-down-menu {
+  height: 10px;
+  margin: 0 8px;
 }
 header .header-nav nav > ul > li .title-hexa {
   font-weight: 700;
@@ -996,8 +1009,8 @@ header .header-nav .tag-new {
     text-decoration: none;
   }
   .header-nav nav ul li.back {
-    color: white;
-    background: #AEAEAE;
+    color: #000;
+    background: #1E6200;
     position: relative;
     text-align: center;
     border-bottom: none;
@@ -1012,18 +1025,24 @@ header .header-nav .tag-new {
     left: 20px;
   }
   .header-nav nav ul li.menu-feature {
-    background: #F4F5F8;
+    background: #333333;
     margin-left: 0;
     margin-right: 0;
     padding-left: 15px;
+    border-top: 1px solid #404040;
     padding-right: 15px;
   }
   .header-nav nav ul li > a {
-    color: inherit;
+    color: #D7D7D7;
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     padding: 15px;
     text-decoration: none;
+    align-items: center;
+  }
+  .header-nav nav ul li > a .icon-right, .header-nav nav ul li > a .icon-left {
+    height: 10px;
   }
   .header-nav nav ul li > a i {
     font-size: 26px;

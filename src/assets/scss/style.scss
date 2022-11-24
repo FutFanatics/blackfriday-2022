@@ -190,12 +190,13 @@
       
     }
     .times-nacionais, .times-internacionais{
-      
+    
         .img-times{
           height: 70px;
           object-fit: contain;
           transition: ease-in-out .8s;
           padding-right: 16px;
+
           @include md{
             padding-right: 0;
             height: 80px;
@@ -328,7 +329,14 @@
       color: #fff;
       font-weight: 600;
       margin-bottom: 0px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;    
       
+      .icon-down{
+        height: 10px;
+      }
       
     }
     .links-footer{
@@ -784,6 +792,13 @@
                 margin-left: 6px;
                 text-decoration: none;
                 vertical-align: middle;
+                display: flex;
+                align-items: center;
+
+                .icon-down-menu{
+                  height: 10px;
+                  margin: 0 8px;
+                }
               }
             }
             .title-hexa{
@@ -1234,8 +1249,8 @@
             }
   
             &.back {
-              color: white;
-              background: $color-text-primary;
+              color: #000;
+              background: #1E6200;
               position: relative;
               text-align: center;
               border-bottom: none;
@@ -1252,19 +1267,26 @@
             }
   
             &.menu-feature {
-              background: $gray-lighter;
+              background: #333333;
               margin-left: 0;
               margin-right: 0;
               padding-left: 15px;
+              border-top: 1px solid #404040;
               padding-right: 15px;
             }
   
             > a {
-              color: inherit;
+              color: #D7D7D7;
               position: relative;
-              display: block;
+              display: flex;
+              justify-content: space-between;
               padding: 15px;
               text-decoration: none;
+              align-items: center;
+
+              .icon-right, .icon-left{
+                height: 10px;
+              }
   
               i {
                 font-size: 26px;

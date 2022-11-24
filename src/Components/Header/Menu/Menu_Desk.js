@@ -7,6 +7,7 @@ import bannerTreino from '../../../img/banner/bannersmenu/banner-treino.png';
 import bannerEsportes from '../../../img/banner/bannersmenu/banner-esportes.png';
 import bannerCalcados from '../../../img/banner/bannersmenu/banner-calcados.png';
 import bannerCasual from '../../../img/banner/bannersmenu/banner-casual.png';
+import icondown from '../../../img/icon/icon-down.svg';
 
 function Menu_Desk(){
     return(
@@ -16,7 +17,7 @@ function Menu_Desk(){
                     <nav>
                         <ul className="d-flex justify-content-between align-items-center">
                             <li className="parent">
-                                <a href="">Loja</a>
+                                <a href="">Loja <img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -79,7 +80,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/clubes-brasileiros">Brasileiros</a>
+                                <a href="https://www.futfanatics.com.br/clubes-brasileiros">Brasileiros <img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -214,7 +215,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/clubes-internacionais">Internacionais</a>
+                                <a href="https://www.futfanatics.com.br/clubes-internacionais">Internacionais <img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -319,7 +320,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/selecoes">Seleções</a>
+                                <a href="https://www.futfanatics.com.br/selecoes">Seleções <img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -415,7 +416,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/futebol">Futebol</a>
+                                <a href="https://www.futfanatics.com.br/futebol">Futebol<img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -525,7 +526,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/treino">Treino</a>
+                                <a href="https://www.futfanatics.com.br/treino">Treino<img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -632,7 +633,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/esportes">Esportes</a>
+                                <a href="https://www.futfanatics.com.br/esportes">Esportes<img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -759,7 +760,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/calcados">Calçados</a>
+                                <a href="https://www.futfanatics.com.br/calcados">Calçados<img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
@@ -855,7 +856,7 @@ function Menu_Desk(){
                                 </div>
                             </li>
                             <li className="parent">
-                                <a href="https://www.futfanatics.com.br/casual">Casual</a>
+                                <a href="https://www.futfanatics.com.br/casual">Casual<img src={icondown} className="icon-down-menu"/></a>
                                 <div className="child-container">
                                     <div className="container-fluid py-3">
                                         <div className="row">
