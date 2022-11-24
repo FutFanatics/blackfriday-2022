@@ -335,10 +335,12 @@
       color: $color-text-primary;
       font-size: 16px;
       margin-bottom: 10px;
-      
-      
       font-weight: 400;
       text-decoration: none;
+
+      &:hover{
+        text-shadow: 0 0 1px #aeaeae;
+      }
 
       &:last-child{
         margin-bottom: 0px;

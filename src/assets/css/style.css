@@ -299,6 +299,9 @@
   font-weight: 400;
   text-decoration: none;
 }
+.c-footer .links-footer:hover {
+  text-shadow: 0 0 1px #aeaeae;
+}
 .c-footer .links-footer:last-child {
   margin-bottom: 0px;
 }
