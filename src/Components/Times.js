@@ -3,8 +3,8 @@ import item2 from '../img/times-brasil/palmeiras.svg';
 import item3 from '../img/times-brasil/atletico-mg.svg';
 import item4 from '../img/times-brasil/corinthians.svg';
 import item5 from '../img/times-brasil/vasco.svg';
-import item6 from '../img/times-brasil/internacional-1.svg';
-import item7 from '../img/times-brasil/fluminense-1.svg';
+import item6 from '../img/times-brasil/internacional.svg';
+import item7 from '../img/times-brasil/fluminense.svg';
 import item8 from '../img/times-brasil/santos.svg';
 import item9 from '../img/times-brasil/sao-paulo.svg';
 import item10 from '../img/times-brasil/gremio.svg';
@@ -23,7 +23,7 @@ import iteminter5 from '../img/times-internacionais/liverpool-1.svg';
 import iteminter6 from '../img/times-internacionais/manchester-united-1.svg';
 import iteminter7 from '../img/times-internacionais/manchester-city.svg';
 import iteminter8 from '../img/times-internacionais/juventus.svg';
-import iteminter9 from '../img/times-internacionais/internazionale-milano.svg';
+import iteminter9 from '../img/times-internacionais/milan.svg';
 import iteminter10 from '../img/times-internacionais/barcelona-1.svg';
 
 
@@ -164,52 +164,52 @@ function Times(){
                     </Slider>}
 
                     {!nacionais && <Slider {...timesinternacional} className="times-internacionais ">
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-espanhola/real-madrid'>
                             <img src={iteminter1} className="img-times"  alt='Real Madrid'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-alema/bayern-de-munique'>
                             <img src={iteminter2} className="img-times"  alt='Bayern'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-alema/borussia-dortmund'>
                             <img src={iteminter3} className="img-times"  alt='Borussia'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/arsenal/'>
                             <img src={iteminter4} className="img-times"  alt='Arsenal'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/liverpool/'>
                             <img src={iteminter5} className="img-times"  alt='Liverpool'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/manchester-united/'>
                             <img src={iteminter6} className="img-times" alt='Manchester United'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/manchester-city/'>
                             <img src={iteminter7} className="img-times"  alt='Manchester City'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-italiana/juventus'>
-                            <img src={iteminter8} className="img-times"  alt='Juventus'/>
+                            <img src={iteminter8} className="img-times img-times-juventus"  alt='Juventus'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-italiana/milan'>
                             <img src={iteminter9} className="img-times"  alt='Milan'/>
                           </a>
                         </div>
-                        <div>
+                        <div className='d-flex justify-content-center align-items-center'>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-espanhola/barcelona'>
                             <img src={iteminter10} className="img-times"  alt='Barcelona'/>
                           </a>

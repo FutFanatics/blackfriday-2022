@@ -260,7 +260,7 @@ class Header extends Component  {
                 <div className="header-top">
                     <div className="header-infos">
                         <div className="container-fluid">
-                            <div className="row py-3 align-items-center">
+                            <div className="row py-1 py-md-3 align-items-center">
                                 <div className="col-4 d-lg-none">
                                     <button className="menu-mob-open icon-menu"><img className="icon-menu d-md-none" src={menu}/></button>
                                 </div>
@@ -284,50 +284,14 @@ class Header extends Component  {
                                     <div className="link-inter align-self-center">
                                         <a href="https://www.futfanatics.net/?utm_source=futfanatics-nacional&utm_medium=referral&utm_campaign=selo-topo" target="_blank" className="d-none d-lg-flex align-items-center"><img className="icon-link-inter" src={iconinternacional}/>International Orders</a>
                                     </div>
-                                    <div className="central">
-                                        <a href="https://futfanatics.com.br/central-do-cliente" className="d-none d-lg-block"><img className="icon-user" src={iconUser}/></a>
-                                        <div className="menu-central d-none">
-                                            <a href="" className="tray-hide" data-logged-user="true">Olá, <span data-customer="name" className="login-traynome"></span></a>
-                                            <a href="https://futfanatics.com.br/central-do-cliente" className="tray-hide" data-logged-user="false">Login</a>
-                                            <a href="{{ links.logout }}" className="tray-hide" data-logged-user="true">Sair</a>
-                                            <a href="https://futfanatics.com.br/cadastro" className="tray-hide" data-logged-user="false">Cadastre-se</a>
-                                            <a href="https://futfanatics.com.br/my-account/orders/">Meus Pedidos</a>
-                                            <a href="https://futfanatics.com.br/portal-de-ajuda">Ajuda</a>
-                                        </div>
+                                    <div className="c-central">
+                                        <a href="https://futfanatics.com.br/central-do-cliente" className="d-none d-md-block"><img className="icon-user" src={iconUser}/></a>
                                     </div>
                                     <div className="search d-lg-none invisible">
                                         <a href=""><i className="icon-search"></i></a>
                                     </div>
-                                    <div className="cart-header">
-                                        <a href="https://futfanatics.com.br/loja/carrinho.php?loja=311840"><img className="icon-cart" src={iconcart}/><span className="cart-qty">0</span></a>
-                                        <div className="menu-cart d-none">
-                                            <ul className="cart-products custom-scroll">
-                                                <li>
-                                                    <div className="product-photo">
-                                                        <a href="">
-                                                            <img src="" alt="" className="img-fluid" />
-                                                        </a>
-                                                    </div>
-                                                    <div className="product-data">
-                                                        <div className="d-flex justify-content-between">
-                                                            <h3></h3>
-                                                            <button className="product-remove ml-2"><i className="icon-trash"></i></button>
-                                                        </div>
-                                                        <div className="product-variant"></div>
-                                                        <div className="d-flex justify-content-between">
-                                                            <div className="product-qty"></div>
-                                                            <div className="product-price"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <div className="cart-subtotal">Subtotal: <strong>R$000,00</strong></div>
-                                            <a href="https://futfanatics.com.br/loja/carrinho.php?loja=311840">Finalizar compra</a>
-                                        </div>
-                                        <div className="cart-note d-none">
-                                            <ul className="cart-added"></ul>
-                                            <a href="https://futfanatics.com.br/loja/carrinho.php?loja=311840">Finalizar compra</a>
-                                        </div>
+                                    <div className="c-cart-header">
+                                        <a href="https://futfanatics.com.br/loja/carrinho.php?loja=311840"><img className="icon-cart" src={iconcart}/></a>
                                     </div>
                                 </div>
                             </div>

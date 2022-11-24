@@ -69,7 +69,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_loja_link }}" target="{{ settings.menu_loja_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/app" target="{{ settings.menu_loja_link_target }}">
                                                             <img className='bannermenu' src={ bannerLoja } alt="" />
                                                         </a>
                                                     </div>
@@ -204,7 +204,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_brasileiros_link }}" target="{{ settings.menu_brasileiros_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/brasileirao" target="{{ settings.menu_brasileiros_link_target }}">
                                                             <img className='bannermenu' src={bannerBrasileiro} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -309,7 +309,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_internacionais_link }}" target="{{ settings.menu_internacionais_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/champions-league" target="{{ settings.menu_internacionais_link_target }}">
                                                         <img className='bannermenu' src={bannerInternacionais} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -405,7 +405,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_selecoes_link }}" target="{{ settings.menu_selecoes_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/almanaque-copa-mundo" target="{{ settings.menu_selecoes_link_target }}">
                                                         <img className='bannermenu' src={bannerSelecoes} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -515,7 +515,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_futebol_link }}" target="{{ settings.menu_futebol_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/loja/busca.php?palavra_busca=adamant" target="{{ settings.menu_futebol_link_target }}">
                                                         <img className='bannermenu' src={bannerFutebol} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -622,7 +622,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_treino_link }}" target="{{ settings.menu_treino_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/loja/busca.php?loja=311840&amp;palavra_busca=challeger&amp;marca=marca_olympikus&amp;range=" target="{{ settings.menu_treino_link_target }}">
                                                         <img className='bannermenu' src={bannerTreino} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -749,7 +749,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_esportes_link }}" target="{{ settings.menu_esportes_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/esportes/basquete/?loja=311840&amp;categoria=902&amp;marca=marca_nba&amp;range=" target="{{ settings.menu_esportes_link_target }}">
                                                         <img className='bannermenu' src={bannerEsportes} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -845,7 +845,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_calcados_link }}" target="{{ settings.menu_calcados_link_target }}">
+                                                        <a href="https://www.futfanatics.com.br/tenis-fila-kr5-coral" target="{{ settings.menu_calcados_link_target }}">
                                                         <img className='bannermenu' src={bannerCalcados} alt="banner intercionais" />
                                                         </a>
                                                     </div>
@@ -943,7 +943,7 @@ function Menu_Desk(){
                                                 </div>
                                                 <div className="flex-shrink-0 d-none d-lg-block">
                                                     <div className="menu-img">
-                                                        <a href="{{ settings.menu_casual_link }}" target="{{ setclasstings.menu_casual_link_target }}">
+                                                        <a href="https://www.futfanatics.https://www.futfanatics.com.br/loja/busca.php?palavra_busca=fatal.br/casual?loja=311840&amp;categoria=1&amp;marca=marca_mash&amp;range=" target="{{ setclasstings.menu_casual_link_target }}">
                                                         <img className='bannermenu' src={bannerCasual} alt="banner intercionais" />
                                                         </a>
                                                     </div>

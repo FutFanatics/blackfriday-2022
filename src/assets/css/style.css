@@ -182,8 +182,12 @@
 @media (min-width: 1200px) {
   .c-carousel-times .times-nacionais .img-times, .c-carousel-times .times-internacionais .img-times {
     padding-right: 0;
+    padding: 5px;
     height: 80px;
   }
+}
+.c-carousel-times .times-nacionais .img-times-juventus, .c-carousel-times .times-internacionais .img-times-juventus {
+  padding: 10px;
 }
 .c-carousel-times .times-nacionais .img-times:hover, .c-carousel-times .times-internacionais .img-times:hover {
   transform: scale(1.05);
@@ -387,6 +391,7 @@
 @media (min-width: 1200px) {
   .c-footer .sign .content-sign {
     padding: 16px;
+    padding-top: 0px;
     text-align: start;
   }
 }

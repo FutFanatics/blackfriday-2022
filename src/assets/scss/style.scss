@@ -208,7 +208,11 @@
 
           @include md{
             padding-right: 0;
+            padding: 5px;
             height: 80px;
+          }
+          &-juventus{
+            padding: 10px;
           }
 
           &:hover{
@@ -437,6 +441,7 @@
         padding-top: 0px;
         @include md{
           padding: 16px;
+          padding-top: 0px;
           text-align: start;
         }
       }
