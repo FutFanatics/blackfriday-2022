@@ -252,6 +252,12 @@ class Header extends Component  {
 
         initSmartBanner();
 
+        $('a').each(function(index, ele){
+
+            var href = $(this).attr('href');
+            $(this).attr('href', href +  window.location.search);
+        })
+
     }
 
     render(){
