@@ -112,17 +112,18 @@ function Destaques(){
                         </div>
                     </a>    
                 </div>
-                <div className='container-card'>
-                    <a href="https://www.futfanatics.com.br/camisa-passaro-preto-ibis-ii-2021" className="link-destaque">
-                        <div className="card-destaque">
-                            <img src={item12} className="img-card"  alt=''/>
-                        </div>
-                    </a>    
-                </div>
+                
                 <div className='container-card'>
                     <a href="https://www.futfanatics.com.br/camisa-passaro-preto-ibis-ii-2021" className="link-destaque">
                         <div className="card-destaque">
                             <img src={item10} className="img-card"  alt=''/>
+                        </div>
+                    </a>    
+                </div>
+                <div className='container-card'>
+                    <a href="https://www.futfanatics.com.br/chuteira-oxn-fusion-grip-3-neo-society-preta-e-azul" className="link-destaque">
+                        <div className="card-destaque">
+                            <img src={item12} className="img-card"  alt=''/>
                         </div>
                     </a>    
                 </div>
