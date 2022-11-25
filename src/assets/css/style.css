@@ -519,11 +519,11 @@ header .busca form button:focus {
 header .busca form button i {
   display: block;
 }
-header .links-usuario a {
+header .links-usuario > a {
   color: #AEAEAE;
   font-size: 24px;
 }
-header .links-usuario a:hover {
+header .links-usuario > a:hover {
   text-decoration: none;
 }
 header .links-usuario div > a {
@@ -536,6 +536,7 @@ header .links-usuario div > a.active {
 }
 header .links-usuario .link-inter a {
   text-decoration: none;
+  color: #FFF;
 }
 header .links-usuario .link-inter .icon-link-inter {
   margin-right: 8px;
@@ -1161,6 +1162,74 @@ header .header-nav .tag-new {
   .c-banners_shirt .banner {
     max-height: 420px;
   }
+}
+.c-cart-header {
+  position: relative;
+}
+.c-cart-header .qnty {
+  position: absolute;
+  right: -5px;
+  top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #FDC800;
+  color: #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-note {
+  position: absolute;
+  background: #262626;
+  border: 1px solid #404040;
+  padding: 0 10px;
+  z-index: 15;
+  border-radius: 3px;
+  margin-top: 6px;
+  right: 5px;
+  top: 50px;
+  padding-top: 10px;
+  width: 200px;
+}
+.cart-note:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid #404040;
+  border-top: 1px solid #404040;
+  background: #262626;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -5px;
+  right: 15px;
+}
+.cart-note h3 {
+  font-size: 14px;
+  color: #AEAEAE;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.cart-note > a {
+  display: block;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: #FDC800;
+  color: #000;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.cart-note > a:hover {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
