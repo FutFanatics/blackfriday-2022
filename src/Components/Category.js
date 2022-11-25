@@ -10,6 +10,7 @@ import item8 from './../img/category/categoria_6.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import LazyLoad from 'react-lazy-load';
 
 
 const Category = () => {
@@ -40,49 +41,65 @@ const Category = () => {
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Internacionais</span>
                         <a className='' href='https://www.futfanatics.com.br/clubes-internacionais'>
-                            <img src={item1} className="img-category" alt="categoria internacional"/>
+                        <LazyLoad offset={200} >
+                            <img src={item1} className="img-category lozad" alt="categoria internacional"/>
+                        </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Nacionais</span>
                         <a className='' href='https://www.futfanatics.com.br/clubes-brasileiros'>
-                            <img src={item2} className="img-category" alt="Categoria nacionais"/>
+                        <LazyLoad offset={200} >
+                            <img src={item2} className="img-category lozad" alt="Categoria nacionais"/>
+                        </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Acessórios</span>
                         <a className='' href='https://www.futfanatics.com.br/casual?variacao=tipo-de-produto_bolsa_bone_cueca_gorro_kit-de-cueca_mochila_relogio_mala_pochete_oculos-de-sol_viseira_estojo'>
-                            <img src={item3} className="img-category" alt="Categoria acessórios"/>
+                            <LazyLoad offset={200} >
+                                <img src={item3} className="img-category lozad" alt="Categoria acessórios"/>
+                            </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Calçados</span>
                         <a className='' href='https://www.futfanatics.com.br/calcados'>
-                            <img src={item4} className="img-category" alt="Categoria calçados"/>
+                            <LazyLoad offset={200} >
+                                <img src={item4} className="img-category lozad" alt="Categoria calçados"/>
+                            </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Futebol</span>
                         <a className='' href='https://www.futfanatics.com.br/futebol'>
-                            <img src={item5} className="img-category" alt="Categoria Futebol"/>
+                            <LazyLoad offset={200} >
+                                <img src={item5} className="img-category lozad" alt="Categoria Futebol"/>
+                            </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Treino</span>
                         <a className='' href='https://www.futfanatics.com.br/treino'>
-                            <img src={item6} className="img-category" alt="Categoria Treino"/>
+                            <LazyLoad offset={200} >    
+                                <img src={item6} className="img-category lozad" alt="Categoria Treino"/>
+                            </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Casuais</span>
                         <a className='' href='https://www.futfanatics.com.br/casual'>
-                            <img src={item7} className="img-category" alt="Categoria Casuais"/>
+                            <LazyLoad offset={200} >    
+                                <img src={item7} className="img-category lozad" alt="Categoria Casuais"/>
+                            </LazyLoad>
                         </a>
                     </div>
                     <div className='box-category d-flex flex-column align-items-center justify-content-center'>
                         <span className='title-category'>Esportes</span>
                         <a className='' href='https://www.futfanatics.com.br/esportes'>
-                            <img src={item8} className="img-category" alt="Categoria Esportes"/>
+                            <LazyLoad offset={200} >
+                                <img src={item8} className="img-category lozad" alt="Categoria Esportes"/>
+                            </LazyLoad>
                         </a>
                     </div>
                 </Slider>

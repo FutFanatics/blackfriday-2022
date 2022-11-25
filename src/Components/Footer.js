@@ -59,11 +59,11 @@ function Footer(){
                     <a href="https://www.futfanatics.com.br/portal-de-ajuda" className="links-footer">Portal de Ajuda</a>
                     <a href="https://www.futfanatics.com.br/trabalheconosco" className="links-footer">Trabalhe Conosco</a>
                     <a href="tel:+551148583500" className="links-footer">
-                    <img className="icon-cel" src={iconSac}/>
+                    <img className="icon-cel lozad" src={iconSac}/>
                         (11) 4858-3500
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=551833440404&text=Ol%C3%A1" className="links-footer">
-                    <img className="icon-cel" src={icontel}/>
+                    <img className="icon-cel lozad"  src={icontel}/>
                         (18) 3344-0404
                     </a>
                     </div>
@@ -72,23 +72,23 @@ function Footer(){
                         <div className='box-images row'>
                             <div className='col-4'>
                                 <a href=''>
-                                    <img src={iconcertificado4} className='img-certificado'/>
+                                    <img src={iconcertificado4} className='img-certificado lozad'/>
                                 </a>
                             </div>
                             <div className='col-4'>
                                 <a href=''>
-                                    <img src={iconcertificado2} className='img-certificado'/>
+                                    <img src={iconcertificado2} className='img-certificado lozad'/>
                                 </a>
                             </div>
                             <div className='col-4'>
                                 <a href=''>
-                                    <img src={iconcertificado1} className='img-certificado'/>
+                                    <img src={iconcertificado1} className='img-certificado lozad'/>
                                 </a>
                             </div>
                             
                             <div className='col-6'>
                                 <a href=''>
-                                    <img src={iconcertificado3} className='img-certificado img-certificado__last'/>
+                                    <img src={iconcertificado3} className='img-certificado img-certificado__last lozad'/>
                                 </a>
                             </div>
                         </div>
@@ -96,20 +96,20 @@ function Footer(){
                 </div>
                 <div className='row method-pagament justify-content-between'>
                     <div className='col-6 d-flex align-items-center'>
-                        <img className='pagament' src={pagament1}/>
-                        <img className='pagament ' src={pagament2}/>
-                        <img className='pagament' src={pagament3}/>
-                        <img className='pagament' src={pagament4}/>
-                        <img className='pagament' src={pagament5}/>
-                        <img className='pagament' src={pagament6}/>
-                        <img className='pagament' src={pagament7}/>
+                        <img className='pagament lozad' src={pagament1}/>
+                        <img className='pagament lozad ' src={pagament2}/>
+                        <img className='pagament lozad' src={pagament3}/>
+                        <img className='pagament lozad' src={pagament4}/>
+                        <img className='pagament lozad' src={pagament5}/>
+                        <img className='pagament lozad' src={pagament6}/>
+                        <img className='pagament lozad' src={pagament7}/>
                     </div>
                     <div className='col-4 d-flex justify-content-end'>
                         <a href='https://play.google.com/store/apps/details?id=com.futfanatics&pli=1' className='app-img'>
-                            <img  src={playstore}/>
+                            <img  className='lozad' src={playstore}/>
                         </a>
                         <a href='https://apps.apple.com/br/app/futfanatics/id1422835821'  className='app-img'>
-                            <img src={applestore}/>
+                            <img className='lozad' src={applestore}/>
                         </a>
                        
                     </div>
@@ -117,7 +117,7 @@ function Footer(){
 
                 <div className='row sign'>
                     <div className='col-10 d-flex align-items-start'>
-                        <img src={signature} class='sign-futfanatics'/>
+                        <img src={signature} className='sign-futfanatics lozad'/>
                         <p className='content-sign'>
                         FF.Com Esportes Ltda CNPJ 05.328.923/0001-90 Rodovia Arthur Boigues Filho, 59 CEP: 19026-650 Presidente Prudente - SP Copyright 2012-2017 www.futfanatics.com.br - TODOS OS
                         DIREITOS RESERVADOS. É vetada a reprodução total ou parcial das informações aqui veiculadas sem a expressa autorização da administração do site. Os preços e condições depagamento
@@ -126,13 +126,13 @@ function Footer(){
                     </div>
                     <div className='col-2 d-flex box-shared'>
                         <a href='https://twitter.com/futfanatics'>
-                            <img className='img-shared' src={twitter}/>
+                            <img className='img-shared lozad' src={twitter}/>
                         </a>
                         <a href='https://www.instagram.com/futfanatics/'>
-                            <img className='img-shared' src={instagram}/>
+                            <img className='img-shared lozad' src={instagram}/>
                         </a>
                         <a href='https://www.facebook.com/futfanatics'>
-                            <img className='img-shared' src={facebook}/>
+                            <img className='img-shared lozad' src={facebook}/>
                         </a>
                         <a href='https://www.youtube.com/user/futfanaticsbr'>
                             <img className='img-shared' src={youtube}/>
@@ -149,7 +149,7 @@ function Footer(){
                 aria-controls="colapseinstitucional"
                 aria-expanded={open}
             >
-                Institucional   <img className='icon-down' src={!open ? icondown : iconup}/>
+                Institucional   <img className='icon-down lozad' src={!open ? icondown : iconup}/>
                     </p>
                     
                     <Collapse in={open}>
@@ -185,7 +185,7 @@ function Footer(){
                 aria-controls="example-collapse-text"
                 aria-expanded={contact}
             >
-                contato <img className='icon-down' src={!contact ? icondown : iconup}/>
+                contato <img className='icon-down lozad' src={!contact ? icondown : iconup}/>
                     </p>
                     <Collapse in={contact}>
                         <div id="example-collapse-text">
@@ -214,23 +214,23 @@ function Footer(){
                         <div className='box-images row'>
                             <div className='col-4'>
                                 <a href=''>
-                                    <img src={iconcertificado4} className='img-certificado'/>
+                                    <img src={iconcertificado4} className='img-certificado lozad'/>
                                 </a>
                             </div>
                             <div className='col-4'>
                                 <a href=''>
-                                    <img src={iconcertificado2} className='img-certificado'/>
+                                    <img src={iconcertificado2} className='img-certificado lozad'/>
                                 </a>
                             </div>
                             <div className='col-4'>
                                 <a href=''>
-                                    <img src={iconcertificado1} className='img-certificado'/>
+                                    <img src={iconcertificado1} className='img-certificado lozad'/>
                                 </a>
                             </div>
                             
                             <div className='col-6'>
                                 <a href=''>
-                                    <img src={iconcertificado3} className='img-certificado img-certificado__last'/>
+                                    <img src={iconcertificado3} className='img-certificado img-certificado__last lozad'/>
                                 </a>
                             </div>
                         </div>
@@ -240,10 +240,11 @@ function Footer(){
                 <div className='box-app d-flex flex-column align-items-center'>
                 <span className='title-footer'>Baixe o app</span>
                     <a href='https://play.google.com/store/apps/details?id=com.futfanatics&pli=1' className='app-img app-img-mob'>
-                            <img  src={playstore}/>
+                            <img  className='lozad' src={playstore}/>
+                            
                         </a>
                         <a href='https://apps.apple.com/br/app/futfanatics/id1422835821'  className='app-img mt-2'>
-                            <img src={applestore}/>
+                            <img className='lozad' src={applestore}/>
                         </a>
                 </div>
                 <div className='row sign'>
@@ -257,19 +258,19 @@ function Footer(){
                     </div>
                     <div className='col-12 d-flex box-shared justify-content-center'>
                         <a href='https://twitter.com/futfanatics'>
-                            <img className='img-shared' src={twitter}/>
+                            <img className='img-shared lozad' src={twitter}/>
                         </a>
                         <a href='https://www.instagram.com/futfanatics/'>
-                            <img className='img-shared' src={instagram}/>
+                            <img className='img-shared lozad' src={instagram}/>
                         </a>
                         <a href='https://www.facebook.com/futfanatics'>
-                            <img className='img-shared' src={facebook}/>
+                            <img className='img-shared lozad' src={facebook}/>
                         </a>
                         <a href='https://www.youtube.com/user/futfanaticsbr'>
-                            <img className='img-shared' src={youtube}/>
+                            <img className='img-shared lozad' src={youtube}/>
                         </a>
                         <a href='https://www.tiktok.com/@futfanaticsoficial?'>
-                        <img className='img-shared' src={tiktok}/>
+                        <img className='img-shared lozad' src={tiktok}/>
                         </a>
                     </div>
                 </div>

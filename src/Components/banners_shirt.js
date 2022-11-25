@@ -4,6 +4,7 @@ import banner2 from './../img/banner/banner_1.jpg';
 import banner3 from './../img/banner/banner_2.jpg';
 import banner4 from './../img/banner/banner_min_2.jpg';
 
+import LazyLoad from 'react-lazy-load';
 
 /*mobile*/
 import bannermob from '../img/banner/bannersmob/banner1.png';
@@ -27,14 +28,18 @@ const BannersShirt = () => {
                         <div className="col-5 pb-4 position-relative">
                         <div class="thumbnail">
                             <a href='https://www.futfanatics.com.br/selecoes?loja=311840&categoria=4&variacao=tipo-de-produto_camisa&range=' className=''>
-                                <img src={banner1} className='banner w-100' alt='Ofertas Seleções'/>
+                            <LazyLoad offset={300} >
+                                <img src={banner1} className='banner w-100 lozad' alt='Ofertas Seleções'/>
+                            </LazyLoad>
                             </a>
                         </div>
                         </div>
                         <div className="col-7 position-relative">
                         <div class="thumbnail">
                             <a href='https://www.futfanatics.com.br/clubes-brasileiros?loja=311840&categoria=11&range=&variacao=camisa-oficial_sim&order=1' className=''>
-                                <img src={banner2} className='banner w-100' alt='Ofertas Clubes Brasileiros'/>
+                                <LazyLoad offset={300} >
+                                    <img src={banner2} className='banner w-100 lozad' alt='Ofertas Clubes Brasileiros'/>
+                                </LazyLoad>
                             </a>
                             </div>
                         </div>
@@ -43,14 +48,18 @@ const BannersShirt = () => {
                         <div className="col-7 position-relative">
                         <div class="thumbnail">
                             <a href='https://www.futfanatics.com.br/selecoes/america-do-sul/brasil' className=''>
-                                <img src={banner3} className=' banner w-100' alt='Ofertas Brasil'/>
+                                <LazyLoad offset={300} >
+                                    <img src={banner3} className=' banner w-100 lozad' alt='Ofertas Brasil'/>
+                                </LazyLoad>
                             </a>
                         </div>
                         </div>
                         <div className="col-5 position-relative">
                         <div class="thumbnail">
                             <a href='https://www.futfanatics.com.br/clubes-internacionais?variacao=camisa-oficial_sim' className=''>
-                                <img src={banner4} className='banner w-100' alt='Ofertas Clubes Internacionais'/>
+                            <LazyLoad offset={300} >
+                                <img src={banner4} className='banner w-100 lozad' alt='Ofertas Clubes Internacionais'/>
+                            </LazyLoad>
                             </a>
                         </div>
                         </div>
@@ -59,16 +68,24 @@ const BannersShirt = () => {
                 <div className='container d-md-none'>
                     <Slider {...bannerShirt}>
                         <div className='col-12 box-banner'>
-                            <img className='img-banner w-100' src={bannermob}/>
+                        <LazyLoad offset={300} >
+                            <img className='img-banner w-100 lozad' src={bannermob}/>
+                        </LazyLoad>
                         </div>
                         <div className='col-12   box-banner'>
-                            <img className='img-banner w-100'  src={bannermob2}/>
+                        <LazyLoad offset={300} >
+                            <img className='img-banner w-100 lozad'  src={bannermob2}/>
+                            </LazyLoad>
                         </div>
                         <div className='col-12 box-banner'>
-                            <img className='img-banner w-100'  src={bannermob3}/>
+                            <LazyLoad offset={300} >
+                                <img className='img-banner w-100 lozad'  src={bannermob3}/>
+                            </LazyLoad>
                         </div>
                         <div className='col-12 box-banner'>
-                            <img className='img-banner w-100'  src={bannermob4}/>
+                            <LazyLoad offset={300} >
+                                <img className='img-banner w-100 lozad'  src={bannermob4}/>
+                            </LazyLoad>
                         </div>
                     </Slider>
                 </div>

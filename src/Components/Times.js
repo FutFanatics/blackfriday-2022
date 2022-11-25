@@ -25,6 +25,7 @@ import iteminter7 from '../img/times-internacionais/manchester-city.svg';
 import iteminter8 from '../img/times-internacionais/juventus.svg';
 import iteminter9 from '../img/times-internacionais/milan.svg';
 import iteminter10 from '../img/times-internacionais/barcelona-1.svg';
+import LazyLoad from 'react-lazy-load';
 
 
 import Slider from "react-slick";
@@ -89,76 +90,106 @@ function Times(){
                       {nacionais  && <Slider {...timesbrasil} className="times-nacionais">
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/flamengo'>
-                            <img src={item1} className="img-times" alt='Flamengo'/>
+                          <LazyLoad offset={300} >
+                              <img src={item1} className="img-times lozad" alt='Flamengo'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'  >
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/palmeiras'>
-                            <img src={item2} className="img-times" alt='Palmeiras'/>
+                          <LazyLoad offset={300} >
+                          <img src={item2} className="img-times lozad" alt='Palmeiras'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'  >
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/minas-gerais/atletico-mineiro'>
-                            <img src={item3} className="img-times" alt='Atlético MG'/>
+                          <LazyLoad offset={300} >
+                          <img src={item3} className="img-times lozad" alt='Atlético MG'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                         <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/corinthians'>
-                            <img src={item4} className="img-times" alt='Corinthians'/>
+                          <LazyLoad offset={300} >
+                            <img src={item4} className="img-times lozad" alt='Corinthians'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/vasco-da-gama'>
-                            <img src={item5} className="img-times" alt='Vasco'/>
+                            <LazyLoad offset={300} >
+                              <img src={item5} className="img-times lozad" alt='Vasco'/>
+                            </LazyLoad>
                           </a>                        
                         </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-grande-do-sul/internacional'>
-                            <img src={item6} className="img-times" alt='Internacional'/>
+                          <LazyLoad offset={300} >
+                            <img src={item6} className="img-times lozad" alt='Internacional'/>
+                            </LazyLoad>
                           </a>                        
                         </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/fluminense'>
-                            <img src={item7} className="img-times" alt='Fluminense'/>
+                            <LazyLoad offset={300} >
+                              <img src={item7} className="img-times lozad" alt='Fluminense'/>
+                            </LazyLoad>
                           </a>                        </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/santos'>
-                            <img src={item8} className="img-times" alt='Santos'/>
+                          <LazyLoad offset={300} >
+                            <img src={item8} className="img-times lozad" alt='Santos'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/sao-paulo/sao-paulo'>
-                            <img src={item9} className="img-times" alt='São Paulo'/>
+                          <LazyLoad offset={300} >
+                            <img src={item9} className="img-times lozad" alt='São Paulo'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-grande-do-sul/gremio'>
-                            <img src={item10} className="img-times" alt='Grêmio'/>
+                          <LazyLoad offset={300} >
+                            <img src={item10} className="img-times lozad" alt='Grêmio'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                         <a href='https://www.futfanatics.com.br/clubes-brasileiros/rio-de-janeiro/botafogo'>
-                            <img src={item11} className="img-times" alt='Botafogo'/>
+                          <LazyLoad offset={300} >
+                            <img src={item11} className="img-times lozad" alt='Botafogo'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                         <a href='https://www.futfanatics.com.br/clubes-brasileiros/parana/coritiba'>
-                            <img src={item12} className="img-times" alt='Coritiba'/>
+                            <LazyLoad offset={300} >
+                              <img src={item12} className="img-times lozad" alt='Coritiba'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                         <a href='https://www.futfanatics.com.br/clubes-brasileiros/nordeste/fortaleza'>
-                            <img src={item13} className="img-times" alt='Fortaleza'/>
+                            <LazyLoad offset={300} >
+                              <img src={item13} className="img-times lozad" alt='Fortaleza'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                         <a href='https://www.futfanatics.com.br/clubes-brasileiros/minas-gerais/cruzeiro'>
-                            <img src={item14} className="img-times" alt='Cruzeiro'/>
+                            <LazyLoad offset={300} >
+                              <img src={item14} className="img-times lozad" alt='Cruzeiro'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div className='time d-flex justify-content-center'>
                           <a href='https://www.futfanatics.com.br/clubes-brasileiros/nordeste/bahia'>
-                            <img src={item15} className="img-times" alt='Bahia'/>
+                            <LazyLoad offset={300} >
+                              <img src={item15} className="img-times lozad" alt='Bahia'/>
+                            </LazyLoad>
                           </a>
                         </div>
                     </Slider>}
@@ -166,52 +197,72 @@ function Times(){
                     {!nacionais && <Slider {...timesinternacional} className="times-internacionais ">
                         <div className='time' > 
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-espanhola/real-madrid'>
-                            <img src={iteminter1} className="img-times"  alt='Real Madrid'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter1} className="img-times lozad"  alt='Real Madrid'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-alema/bayern-de-munique'>
-                            <img src={iteminter2} className="img-times"  alt='Bayern'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter2} className="img-times lozad"  alt='Bayern'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-alema/borussia-dortmund'>
-                            <img src={iteminter3} className="img-times"  alt='Borussia'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter3} className="img-times lozad"  alt='Borussia'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/arsenal/'>
-                            <img src={iteminter4} className="img-times"  alt='Arsenal'/>
+                          <LazyLoad offset={300} >  
+                            <img src={iteminter4} className="img-times lozad"  alt='Arsenal'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/liverpool/'>
-                            <img src={iteminter5} className="img-times"  alt='Liverpool'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter5} className="img-times lozad"  alt='Liverpool'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/manchester-united/'>
-                            <img src={iteminter6} className="img-times" alt='Manchester United'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter6} className="img-times lozad" alt='Manchester United'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-inglesa/manchester-city/'>
-                            <img src={iteminter7} className="img-times"  alt='Manchester City'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter7} className="img-times lozad"  alt='Manchester City'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-italiana/juventus'>
-                            <img src={iteminter8} className="img-times img-times-juventus"  alt='Juventus'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter8} className="img-times lozad img-times lozad-juventus"  alt='Juventus'/>
+                          </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-italiana/milan'>
-                            <img src={iteminter9} className="img-times"  alt='Milan'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter9} className="img-times lozad"  alt='Milan'/>
+                            </LazyLoad>
                           </a>
                         </div>
                         <div>
                           <a href='https://www.futfanatics.com.br/clubes-internacionais/liga-espanhola/barcelona'>
-                            <img src={iteminter10} className="img-times"  alt='Barcelona'/>
+                          <LazyLoad offset={300} >
+                            <img src={iteminter10} className="img-times lozad"  alt='Barcelona'/>
+                            </LazyLoad>
                           </a>
                         </div>
                     </Slider>

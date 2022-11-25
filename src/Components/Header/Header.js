@@ -258,6 +258,9 @@ class Header extends Component  {
             $(this).attr('href', href +  window.location.search);
         })
 
+        
+        
+
     }
 
     render(){

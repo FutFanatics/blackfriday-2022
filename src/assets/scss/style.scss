@@ -70,6 +70,16 @@
   text-decoration: none;
   font-family: 'Gotham'
 }
+
+.LazyLoad {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
 #root{
     background-color: $background-primary;
 }
