@@ -19,6 +19,97 @@ class Header extends Component  {
     }
 
     componentDidMount = () => {
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = document.cookie;
+            var ca = decodedCookie.split(';');
+
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i].trim();
+                if (c.indexOf(name) == 0) {
+                    return decodeURIComponent(c.substring(name.length, c.length));
+                }
+            }
+            return "";
+        }
+
+        $.fn.cart = function () {
+            var self = this,
+            cartSession = getCookie('cartSession');
+
+            self.add = function (productId, quantity, variantId, callback) {
+                var self = this;
+
+                $.ajax({
+                    method: "POST",
+                    url: "https://www.futfanatics.com.br/web_api/cart/",
+                    contentType: "application/json; charset=utf-8",
+                    crossDomain: true,
+                    data: '{"Cart":{"session_id":"' + cartSession + '","product_id":"' + productId + '","quantity":"' + quantity + '","variant_id":"' + variantId + '"}}'
+                }).done(function (response, textStatus, jqXHR) {
+
+                    $('.cart-note').removeClass('d-none');
+
+                    setTimeout(function () {
+                        $('.cart-note').addClass('d-none');
+                    }, 5000);
+
+                    self.load();
+
+                    if (callback && typeof callback == "function") {
+                        callback(response);
+                    }
+                }).fail(function (jqXHR, status, errorThrown) {
+                    var response = $.parseJSON(jqXHR.responseText);
+                    console.error("[cart.js] - add error: ", response);
+                    if (callback && typeof callback == "function")
+                        callback(null);
+                });
+            };
+            self.load = function () {
+                $.ajax({
+                    method: "GET",
+                    crossDomain: true,
+                    url: "https://www.futfanatics.com.br/web_api/cart/" + cartSession
+                }).done(function (response, textStatus, jqXHR) {
+                    var qtde_itens = 0;
+
+                    response.forEach(function (item) {
+                        var cart = item.Cart;
+
+                        qtde_itens += parseInt(cart.quantity);
+                    });
+
+                    changeQty(qtde_itens);
+                }).fail(function (jqXHR, status, errorThrown) {
+                    var response = $.parseJSON(jqXHR.responseText);
+                    if (response.name = "Nenhum registro encontrado") {
+                        changeQty(0);
+                    } else {
+                        console.error("[cart.js] - load error: ", response);
+                    }
+                });
+            };
+            function changeQty(qty) {
+                var cartQty = self.find(".qnty");
+                console.log()
+                cartQty.text(qty);
+                if (qty > 0) {
+                    cartQty.addClass("has-items");
+                } else {
+                    cartQty.removeClass("has-items");
+                }
+            }
+            return self;
+        };
+
+        setTimeout(function () {
+            window.Cart = $(".c-cart-header").cart();
+            window.Cart.load();
+            console.log("[cart.js] - init");
+        }, 200);
+
         var lastScrollTop = 0;
         $(window).scroll(function(event){
             var st = $(this).scrollTop();
@@ -297,7 +388,13 @@ class Header extends Component  {
                                         <a href=""><i className="icon-search"></i></a>
                                     </div>
                                     <div className="c-cart-header">
+                                        <span className="qnty">0</span>
                                         <a href="https://futfanatics.com.br/loja/carrinho.php?loja=311840"><img className="icon-cart" src={iconcart}/></a>
+
+                                        <div class="cart-note d-none">
+                                            <h3>Carrinho Atualizado</h3>
+                                            <a href="https://www.futfanatics.com.br/loja/carrinho.php?loja=311840">Finalizar compra</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
