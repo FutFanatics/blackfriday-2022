@@ -1,5 +1,5 @@
-import banner from './../img/banner/banner-live.png';
-import bannerMobile from '../img/banner/banner-livemobile.png';
+import banner from './../img/prorrogado/banner-live.png';
+import bannerMobile from '../img/prorrogado/mob/banner-livemobile.png';
 import LazyLoad from 'react-lazy-load';
 
 const Topo = () => {

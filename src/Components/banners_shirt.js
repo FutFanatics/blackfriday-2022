@@ -1,16 +1,16 @@
 import Slider from 'react-slick';
-import banner1 from './../img/banner/banner_min_1.jpg';
-import banner2 from './../img/banner/banner_1.jpg';
-import banner3 from './../img/banner/banner_2.jpg';
-import banner4 from './../img/banner/banner_min_2.jpg';
+import banner1 from './../img/prorrogado/banner_min_1.png';
+import banner2 from './../img/prorrogado/banner_1.png';
+import banner3 from './../img/prorrogado/banner_2.png';
+import banner4 from './../img/prorrogado/banner_min_2.png';
 
 import LazyLoad from 'react-lazy-load';
 
 /*mobile*/
-import bannermob from '../img/banner/bannersmob/banner1.png';
-import bannermob2 from '../img/banner/bannersmob/banner2.png';
-import bannermob3 from '../img/banner/bannersmob/banner3.png';
-import bannermob4 from '../img/banner/bannersmob/banner4.png';
+import bannermob from '../img/prorrogado/mob/banner1.png';
+import bannermob2 from '../img/prorrogado/mob/banner2.png';
+import bannermob3 from '../img/prorrogado/mob/banner3.png';
+import bannermob4 from '../img/prorrogado/mob/banner4.png';
 
 
 const BannersShirt = () => {
