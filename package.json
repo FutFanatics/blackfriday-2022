@@ -1,6 +1,6 @@
 {
-  "name": "meu-app-react",
-  "homepage": "https://blackfriday.futfanatics.com.br/",
+  "name": "blackfriday-2023",
+  "homepage": "https://beta.futfanatics.com.br/blackfriday-2023",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.0.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

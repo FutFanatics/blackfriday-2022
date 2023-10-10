@@ -14,7 +14,7 @@
   src: url("../fonts/Gotham-Light.eot");
   src: url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("truetype"), url("../fonts/Gotham-Light.svg#Gotham") format("svg");
   font-style: normal;
-  font-weight: 300;
+  font-weight: 350;
   font-display: swap;
 }
 @font-face {
@@ -38,7 +38,7 @@
   src: url("../fonts/Gotham-Black.eot");
   src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black.svg#Gotham") format("svg");
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
   font-display: swap;
 }
 * {
@@ -92,7 +92,7 @@
   background-color: #262626;
 }
 .c-header .container-options .option-menu {
-  color: #AEAEAE;
+  color: #D7D7D7;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -282,6 +282,43 @@
 }
 .c-carousel-marcas .img-marca:hover {
   transform: scale(1.1);
+}
+
+.c-destaque {
+  overflow: hidden;
+}
+.c-destaque .slick-destaque {
+  width: 125%;
+}
+.c-destaque .slick-destaque .item {
+  padding: 8px;
+}
+
+.c-banners-bottom .box-banner-full {
+  min-height: 50vh;
+}
+.c-banners-bottom .box-banner-full .banner-full {
+  width: 100%;
+  object-fit: cover;
+}
+.c-banners-bottom .slick-banners_bottom .item {
+  padding: 8px;
+}
+.c-banners-bottom .slick-banners_bottom .bannersBottom {
+  width: 100%;
+}
+
+.c-Install {
+  margin-top: 64px;
+}
+.c-Install .container-app {
+  min-height: 400px;
+}
+.c-Install .container-app .app-install {
+  position: absolute;
+  height: 480px;
+  bottom: -70%;
+  left: -40%;
 }
 
 .c-destaque {
@@ -1229,6 +1266,11 @@ header .header-nav .tag-new {
 }
 .cart-note > a:hover {
   color: #000;
+}
+
+.c-forms select {
+  border-radius: 5px;
+  padding: 0.575rem 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */

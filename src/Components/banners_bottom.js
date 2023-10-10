@@ -1,86 +1,66 @@
-import banner1 from './../img/prorrogado/banner_min_3.png';
-import banner2 from './../img/prorrogado/banner_3.png';
-import banner3 from './../img/prorrogado/banner_4.png';
-import banner4 from './../img/prorrogado/banner_min_4.png';
-import Slider from 'react-slick';
+import './../assets/css/style.css';
+import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css' ;
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { ImgBanner } from "./banner";
+import { BoxTitle } from "./box";
+import { Section } from "./section";
+import { TitleMarca } from "./Text";
 
-import LazyLoad from 'react-lazy-load';
+import BannerFull from '../img/banner/banner-full.png'
+import BannerBottom1 from '../img/banner/bannerbottom1.png'
+import BannerBottom2 from '../img/banner/bannerbottom2.png'
+import BannerBottom3 from '../img/banner/bannerbottom3.png'
 
-/*mobile*/
-import bannermob from '../img/prorrogado/mob/banner5.png';
-//import bannermob2 from '../img/prorrogado/mob/banner6.png';
-import bannermob3 from '../img/prorrogado/mob/banner7.png';
-import bannermob4 from '../img/prorrogado/mob/banner8.png';
-
-
-function BannersBottom() {
-    const bannerBottom={
-        dots:false,
+function BannerBottom() {
+    const bannersbottom={
+        dots:true,
         arrows:false,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
+        responsive:[
+          {
+              breakpoint: 600,
+              settings : {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                dots: false,
+                arrows:false,
+              }
+            },
+        ]
     }
-    return(
-        <section className="c-banners_shirt">
-            <div className="container d-none d-md-block">
-                    <div className="row">
-                        <div className="col-5 pb-4 position-relative">
-                        <div class="thumbnail">
-                            <a href='https://www.futfanatics.com.br/treino?&order=4' className=''>
-                                <LazyLoad offset={400} >
-                                    <img src={banner1} className='banner w-100 lozad' alt='Ofertas Treino'/>
-                                </LazyLoad>
-                            </a>
-                        </div>
-                        </div>
-                        <div className="col-7 position-relative">
-                        <div class="thumbnail">
-                            <a href='https://www.futfanatics.com.br/futebol?&order=3' className=''>
-                            <LazyLoad offset={400} >
-                                <img src={banner2} className='banner w-100 lozad' alt='Ofertas itens Futebol'/>
-                            </LazyLoad>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                    <div className='row '>
-                        <div className="col-7 position-relative">
-                        <div class="thumbnail">
-                            <a href='https://www.futfanatics.com.br/casual' className=''>
-                            <LazyLoad offset={400} >
-                                <img src={banner3} className=' banner w-100 lozad' alt='Oferta Casual'/>
-                            </LazyLoad>
-                            </a>
-                        </div>
-                        </div>
-                        <div className="col-5 position-relative">
-                        <div class="thumbnail">
-                            <a href='https://www.futfanatics.com.br/esportes?&order=0' className=''>
-                            <LazyLoad offset={400} >
-                                <img src={banner4} className='banner w-100 lozad' alt='Ofertas Esportes'/>
-                            </LazyLoad>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
+
+        return(
+            <Section className='c-banners-bottom'>
+                <div className='box-banner-full'>
+                    <img className='banner-full' src={BannerFull}/>
                 </div>
-                <div className='container d-md-none'>
-                    <Slider {...bannerBottom}>
-                        <div className='col-12 box-banner'>
-                            <img className='img-banner w-100 lozad' src={bannermob}/>
+                <div className='container mt-3'>
+                    <Slider {...bannersbottom} className='slick-banners_bottom'>
+                        <div className='item'>
+                            <a>
+                                <img className='bannersBottom' src={BannerBottom1}/>
+                            </a>
                         </div>
-                        <div className='col-12 box-banner'>
-                            <img className='img-banner w-100 lozad'  src={bannermob3}/>
+                        <div className='item'>
+                            <a>
+                                <img className='bannersBottom' src={BannerBottom2}/>
+                            </a>
                         </div>
-                        <div className='col-12 box-banner'>
-                            <img className='img-banner w-100 lozad'  src={bannermob4}/>
+                        <div className='item'>
+                            <a>
+                                <img className='bannersBottom' src={BannerBottom3}/>
+                            </a>
                         </div>
                     </Slider>
                 </div>
-        </section>
-    );
-};
+            </Section>
 
-export default BannersBottom;
+        )
+}
+
+export default BannerBottom;

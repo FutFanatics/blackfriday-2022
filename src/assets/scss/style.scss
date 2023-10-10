@@ -25,7 +25,7 @@
         url('../fonts/Gotham-Light.ttf') format('truetype'),
         url('../fonts/Gotham-Light.svg#Gotham') format('svg');
     font-style: normal;
-    font-weight: $fw_light;
+    font-weight:350;
     font-display: swap;
 }
 
@@ -49,7 +49,7 @@
         url('../fonts/Gotham-Medium.ttf') format('truetype'),
         url('../fonts/Gotham-Medium.svg#Gotham') format('svg');
     font-style: normal;
-    font-weight: $fw_medium;
+    font-weight: 500;
     font-display: swap;
 }
 
@@ -61,7 +61,7 @@
         url('../fonts/Gotham-Black.ttf') format('truetype'),
         url('../fonts/Gotham-Black.svg#Gotham') format('svg');
     font-style: normal;
-    font-weight: $fw_black;
+    font-weight: 600;
     font-display: swap;
 }
 
@@ -81,7 +81,7 @@
 }
 
 #root{
-    background-color: $background-primary;
+    background-color: #000;
 }
 
 .c-testeira{
@@ -125,7 +125,7 @@
   .container-options{
     background-color:#262626;
     .option-menu{
-      color: $color-text-primary;
+      color: #D7D7D7;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 16px;
@@ -338,6 +338,52 @@
       }
     }
   }
+  
+  .c-destaque{
+    overflow: hidden;
+    .slick-destaque{
+        width: 125%;
+
+        .item{
+            padding: 8px;
+        }
+    }
+  }
+
+  .c-banners-bottom{
+    .box-banner-full{
+        min-height: 50vh;
+
+        .banner-full{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .slick-banners_bottom{
+        .item{
+            padding: 8px;
+        }
+        .bannersBottom{
+            width: 100%;
+        }
+
+    }
+  }
+
+  .c-Install{
+    margin-top: 64px;
+    .container-app{
+      min-height: 400px;
+
+      .app-install{
+        position: absolute;
+        height: 480px;
+        bottom: -70%;
+        left: -40%;
+      }
+    }
+  }
+
   .c-destaque{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -1514,3 +1560,10 @@
     }
   }
 }
+
+  .c-forms{
+    select{
+      border-radius: 5px;
+      padding: 0.575rem 0.75rem;
+    }
+  } 
